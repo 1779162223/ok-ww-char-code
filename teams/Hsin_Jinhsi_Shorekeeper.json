@@ -1,0 +1,32 @@
+{
+  "team": "Hsin, Jinhsi, Shorekeeper",
+  "slug": "Hsin_Jinhsi_Shorekeeper",
+  "members": [
+    "Hsin",
+    "Jinhsi",
+    "Shorekeeper"
+  ],
+  "totalCodes": 1,
+  "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Hsin_Jinhsi_Shorekeeper.json",
+  "codes": [
+    {
+      "filename": "Hsin_Jinhsi_Shorekeeper_楽山_1.0.0.zip",
+      "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Hsin_Jinhsi_Shorekeeper_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+      "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Hsin_Jinhsi_Shorekeeper_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+      "name": "Hsin_Jinhsi_Shorekeeper",
+      "description": "心汐守轮椅轴\n样本：61心01汐21守\n共效：心128 汐122 守280\n位置：一号位守 二号位汐 三号位心\n实机已跑通 复现难度不高 加了很多的保底",
+      "author": "楽山",
+      "version": "1.0.0",
+      "team": "Hsin, Jinhsi, Shorekeeper",
+      "members": [
+        "Hsin",
+        "Jinhsi",
+        "Shorekeeper"
+      ],
+      "size": 42604,
+      "sizeFormatted": "41.61 KB",
+      "timestamp": 1791200601,
+      "modifiedAt": "2026-10-05T11:43:21.000Z"
+    }
+  ]
+}
