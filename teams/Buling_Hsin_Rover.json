@@ -1,0 +1,32 @@
+{
+  "team": "Buling, Hsin, Rover",
+  "slug": "Buling_Hsin_Rover",
+  "members": [
+    "Buling",
+    "Hsin",
+    "Rover"
+  ],
+  "totalCodes": 1,
+  "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Buling_Hsin_Rover.json",
+  "codes": [
+    {
+      "filename": "Buling_Hsin_Rover_coyomii_1.0.0.zip",
+      "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Buling_Hsin_Rover_coyomii_1.0.0.zip",
+      "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Buling_Hsin_Rover_coyomii_1.0.0.zip",
+      "name": "Buling_Hsin_Rover",
+      "description": "【使用说明】\n1. 最低共鸣链适配：01心、21雷主（带千古，声骸带轻云或镜影）、60Buling；低于该配置暂未测试。\n2. 测试共鸣效率：心120%+、雷主130%+、Buling180%+；以上为当前测试参考值，不代表绝对最低门槛。\n3. 一号位角色：心。\n4. 自动切换治疗位：不需要开启。\n5. 轴的特色：本代码参考B站长风ei的心雷Buling25秒轮椅轴。",
+      "author": "coyomii",
+      "version": "1.0.0",
+      "team": "Buling, Hsin, Rover",
+      "members": [
+        "Buling",
+        "Hsin",
+        "Rover"
+      ],
+      "size": 42899,
+      "sizeFormatted": "41.89 KB",
+      "timestamp": 1791510936,
+      "modifiedAt": "2026-10-09T01:55:36.000Z"
+    }
+  ]
+}
