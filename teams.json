@@ -2,8 +2,8 @@
   "repository": "ok-oldking/ok-ww-char-code",
   "pageUrl": "https://okwwcharcode.ok-script.com",
   "jsonUrl": "https://okwwcharcode.ok-script.com/teams.json",
-  "totalTeams": 37,
-  "totalCodes": 48,
+  "totalTeams": 36,
+  "totalCodes": 47,
   "teams": [
     {
       "team": "Baizhi, Phrolova, Verina",
@@ -366,38 +366,6 @@
           "sizeFormatted": "41.89 KB",
           "timestamp": 1791510936,
           "modifiedAt": "2026-10-09T01:55:36.000Z"
-        }
-      ]
-    },
-    {
-      "team": "Buling, Hsin, Suisui",
-      "slug": "Buling_Hsin_Suisui",
-      "members": [
-        "Buling",
-        "Hsin",
-        "Suisui"
-      ],
-      "totalCodes": 1,
-      "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Buling_Hsin_Suisui.json",
-      "codes": [
-        {
-          "filename": "Buling_Hsin_Suisui_楽山_1.0.0.zip",
-          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Buling_Hsin_Suisui_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
-          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Buling_Hsin_Suisui_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
-          "name": "Buling_Hsin_Suisui",
-          "description": "心卜穗轮椅轴\n样本：61心60卜（带非加协奏类武器）00穗（5阶奇幻变奏）\n共效：心128 卜235（带轻云套）穗260\n位置：一号位穗穗 二号位卜灵 三号位心\n实机已跑通 复现难度视boss而定 由于此轴对于卜灵协奏把握比较高 而卜灵又容易被肘 可能需要排boss和一定的凹\n轴参考B站UP主长风ei 可以自己查看流程",
-          "author": "楽山",
-          "version": "1.0.0",
-          "team": "Buling, Hsin, Suisui",
-          "members": [
-            "Buling",
-            "Hsin",
-            "Suisui"
-          ],
-          "size": 41321,
-          "sizeFormatted": "40.35 KB",
-          "timestamp": 1791277510,
-          "modifiedAt": "2026-10-06T09:05:10.000Z"
         }
       ]
     },
