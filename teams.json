@@ -2,9 +2,60 @@
   "repository": "ok-oldking/ok-ww-char-code",
   "pageUrl": "https://okwwcharcode.ok-script.com",
   "jsonUrl": "https://okwwcharcode.ok-script.com/teams.json",
-  "totalTeams": 36,
-  "totalCodes": 47,
+  "totalTeams": 38,
+  "totalCodes": 51,
   "teams": [
+    {
+      "team": "Baizhi, Phrolova, Verina",
+      "slug": "Baizhi_Phrolova_Verina",
+      "members": [
+        "Baizhi",
+        "Phrolova",
+        "Verina"
+      ],
+      "totalCodes": 2,
+      "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Baizhi_Phrolova_Verina.json",
+      "codes": [
+        {
+          "filename": "2弗维速刷boss_琉璃_1.0.0.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/2%E5%BC%97%E7%BB%B4%E9%80%9F%E5%88%B7boss_%E7%90%89%E7%92%83_1.0.0.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/2%E5%BC%97%E7%BB%B4%E9%80%9F%E5%88%B7boss_%E7%90%89%E7%92%83_1.0.0.zip",
+          "name": "2弗维速刷boss",
+          "description": "1.刚需2弗2维5奇幻，维带无归，白芷带乌龟\n2.无大招不需共鸣效率\n3.谁进场都可以\n4.开启自动切换治疗位，大招不开\n5.弗需提前攒好重击再开始\n6.轴为维打满协奏切弗aaqz，重击直接打死的话一般115左右每小时",
+          "author": "琉璃",
+          "version": "1.0.0",
+          "team": "Baizhi, Phrolova, Verina",
+          "members": [
+            "Baizhi",
+            "Phrolova",
+            "Verina"
+          ],
+          "size": 4124,
+          "sizeFormatted": "4.03 KB",
+          "timestamp": 1791477164,
+          "modifiedAt": "2026-10-08T16:32:44.000Z"
+        },
+        {
+          "filename": "速刷4C_奉眠_1.0.0.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/%E9%80%9F%E5%88%B74C_%E5%A5%89%E7%9C%A0_1.0.0.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/%E9%80%9F%E5%88%B74C_%E5%A5%89%E7%9C%A0_1.0.0.zip",
+          "name": "速刷4C",
+          "description": "━━━━━━━━━━━━━━━━━━\n鳴潮 ok-ww 自動刷聲駭｜專刷 4C\n━━━━━━━━━━━━━━━━━━\n\n【隊伍配置】（入門／進階相同）\n出場順序：維里奈起手\n開始前：弗洛洛能量需刷滿（確保能施放強化重擊）\n\n▸ 弗洛洛\n　共鳴鏈：2 鏈\n　武器：專武 1 精\n▸ 維里奈\n　共鳴鏈：2 鏈\n　武器：精5奇幻（精1～4請自行測試）\n　套裝：隱世回光\n　主聲駭：無歸的謬誤（傷害足夠也可用烏龜）\n▸ 白芷（隨意，不死即可）\n　動作：只放聲駭技能\n　套裝：隱世回光\n　主聲駭：烏龜（掛 buff 用）\n\n💡 只帶弗、維兩人也能開刷，白芷是否需要請自行判斷\n\n【作者弗洛洛面板參考】\n▸ 暴擊率：99%\n▸ 暴擊傷害：277%\n▸ 攻擊力：2500\n▸ 共鳴技能傷害加成：25.5%\n▸ 湮滅傷害加成：102%\n▸ 聲駭技能傷害加成：55%\n\n⚠ 以上僅供參考，請自行測試你的角色能否穩定運行\n\n━━━━━━━━━━━━━━━━━━\n🔰 入門｜直接使用預設掛機\n━━━━━━━━━━━━━━━━━━\n\n【基本設定】\n▸ 戰鬥前後切治療：開啟\n▸ 使用共鳴解放：關閉\n\n【效率】\n▸ 其他週本：約 115 個／小時\n▸ 達妮婭週本：約 110 個／小時\n　（一次給兩個，刷來合成用）\n\n━━━━━━━━━━━━━━━━━━\n⚙️ 進階｜修改腳本提升效率\n━━━━━━━━━━━━━━━━━━\n\n⚠ 需要一定的動手能力，可詢問 AI 協助修改程式碼\n\n【修改檔案】\n① FarmEchoTask.py（刷聲駭任務，主要修改）\n② BaseWWTask.py（搜尋聲駭邏輯參考）\n\n路徑：\nC:\\Users\\<使用者名稱>\\AppData\\Local\\ok-ww\\data\\apps\\ok-ww\\working\\src\\task\\\n\n【修改項目】\n1. 新增 Boss 選項\n2. 開場閃避\n3. 閃避起算點提前\n4. 跳過結束等待\n　→ 撿完聲駭後不再等 5 秒確認戰鬥是否重啟，直接重新挑戰\n　→ 每輪省約 5 秒\n5. 搜尋聲駭改為直走\n　→ 沿用 BaseWWTask.py 原邏輯，改成直走，減少後退、前進浪費的時間\n\n【效率】\n▸ 達妮婭週本：約 137 個／小時\n　撿取成功率 99%｜實測穩定運行 24 小時\n▸ 其他週本：待測試\n\n━━━━━━━━━━━━━━━━━━",
+          "author": "奉眠",
+          "version": "1.0.0",
+          "team": "Baizhi, Phrolova, Verina",
+          "members": [
+            "Baizhi",
+            "Phrolova",
+            "Verina"
+          ],
+          "size": 6234,
+          "sizeFormatted": "6.09 KB",
+          "timestamp": 1791578967,
+          "modifiedAt": "2026-10-09T20:49:27.000Z"
+        }
+      ]
+    },
     {
       "team": "Aemeath, Augusta, Baizhi",
       "slug": "Aemeath_Augusta_Baizhi",
@@ -306,6 +357,57 @@
       ]
     },
     {
+      "team": "Buling, Hsin, Rover",
+      "slug": "Buling_Hsin_Rover",
+      "members": [
+        "Buling",
+        "Hsin",
+        "Rover"
+      ],
+      "totalCodes": 2,
+      "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Buling_Hsin_Rover.json",
+      "codes": [
+        {
+          "filename": "Buling_Hsin_Rover_coyomii_1.0.0.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Buling_Hsin_Rover_coyomii_1.0.0.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Buling_Hsin_Rover_coyomii_1.0.0.zip",
+          "name": "Buling_Hsin_Rover",
+          "description": "【使用说明】\n1. 最低共鸣链适配：01心、21雷主（带千古，声骸带轻云或镜影）、60Buling；低于该配置暂未测试。\n2. 测试共鸣效率：心120%+、雷主130%+、Buling180%+；以上为当前测试参考值，不代表绝对最低门槛。\n3. 一号位角色：心。\n4. 自动切换治疗位：不需要开启。\n5. 轴的特色：本代码参考B站长风ei的心雷Buling25秒轮椅轴。",
+          "author": "coyomii",
+          "version": "1.0.0",
+          "team": "Buling, Hsin, Rover",
+          "members": [
+            "Buling",
+            "Hsin",
+            "Rover"
+          ],
+          "size": 42899,
+          "sizeFormatted": "41.89 KB",
+          "timestamp": 1791510936,
+          "modifiedAt": "2026-10-09T01:55:36.000Z"
+        },
+        {
+          "filename": "心卜雷_亦_1.0.0.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/%E5%BF%83%E5%8D%9C%E9%9B%B7_%E4%BA%A6_1.0.0.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/%E5%BF%83%E5%8D%9C%E9%9B%B7_%E4%BA%A6_1.0.0.zip",
+          "name": "心卜雷",
+          "description": "25s轮椅轴，雷主带镜影套，切雷主先手\n狐狸120 雷主142 卜186（测试数据，非最低要求）\n共鸣链均适配\n一号位：日常随意，矩阵等建议雷主\n不开启自动切换治疗位\n可循环刷四c，实战31狐矩阵一层可达9500分\n轴参考b站不知名の百地",
+          "author": "亦",
+          "version": "1.0.0",
+          "team": "Buling, Hsin, Rover",
+          "members": [
+            "Buling",
+            "Hsin",
+            "Rover"
+          ],
+          "size": 51997,
+          "sizeFormatted": "50.78 KB",
+          "timestamp": 1791607592,
+          "modifiedAt": "2026-10-10T04:46:32.000Z"
+        }
+      ]
+    },
+    {
       "team": "Buling, Hsin, Suisui",
       "slug": "Buling_Hsin_Suisui",
       "members": [
@@ -317,23 +419,23 @@
       "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Buling_Hsin_Suisui.json",
       "codes": [
         {
-          "filename": "Buling_Hsin_Suisui_楽山_1.0.0.zip",
-          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Buling_Hsin_Suisui_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
-          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Buling_Hsin_Suisui_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+          "filename": "Buling_Hsin_Suisui_楽山_1.2.0.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Buling_Hsin_Suisui_%E6%A5%BD%E5%B1%B1_1.2.0.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Buling_Hsin_Suisui_%E6%A5%BD%E5%B1%B1_1.2.0.zip",
           "name": "Buling_Hsin_Suisui",
-          "description": "心卜穗轮椅轴\n样本：61心60卜（带非加协奏类武器）00穗（5阶奇幻变奏）\n共效：心128 卜235（带轻云套）穗260\n位置：一号位穗穗 二号位卜灵 三号位心\n实机已跑通 复现难度视boss而定 由于此轴对于卜灵协奏把握比较高 而卜灵又容易被肘 可能需要排boss和一定的凹\n轴参考B站UP主长风ei 可以自己查看流程",
+          "description": "心卜穗轮椅轴 \n样本：61心60卜（带非加协奏类武器）00穗（5阶奇幻变奏） \n共效：心128 卜235（带轻云套）穗260 \n位置：一号位穗穗 二号位卜灵 三号位心 \n实机已跑通 复现难度视boss而定 由于此轴对于卜灵协奏把握比较高 而卜灵又容易被肘 可能需要排boss和一定的凹 轴参考B站UP主长风ei 可以自己查看流程\n心卜穗 v1.2.0 优化说明（相对 v1.1.0）\n\n配置要求不变：心用共鸣模态·电磁（6 链心实测）；16:9，默认键位（右键闪避、F 处决）；切人按角色不按编队，编队顺序随意；4K/2K/1080/720 都验过。\n\n【卜灵】\n1. 新增卦象识别：直接读角色栏上方的卦象栏（艮/震），两段强化重击一打出来就松手，不用再等重击图标外圈变色，每段省 0.3 秒左右（实机第一段约 1.2 秒，第二段约 0.7 秒）。\n2. 以前偶尔把\"震震震震\"误判成重击没出，白开 R。现在按卦象判断，凑不出一阴一阳会补艮或补震；补了会把协奏攒满的话就不补，直接开 R。\n3. 穗穗 E 完切卜灵有时是空中进场，2A 打成下落（给震不给艮）。现在能认出来，再补一轮 2A 并省掉跳 A，卦象和协奏跟正常一样。\n4. A4 的震一出现就停 A，马上接重击。\n5. 第二格启动轴和循环轴统一成：2A → 协奏补满 → Q → 马上变奏心。协奏已满就不再白按一发重击（约 1.4 秒），只差一点时点普攻补。\n6. 变奏心的时刻从 6.30 秒提前到 6.12 秒（仍在穗穗第一次翾舞之后，心第二段照样吃到烟岚）。Q 放在等待的最后，按完正好切人。\n7. 卦象栏读不到时（外语客户端、改过 HUD 等），自动退回原来看重击图标外圈颜色的判断。\n\n【心】\n1. 转相提速：应世心一清空就松开重击（步红尘不会被打断），从这一刻起连按 R，转相一解锁就放出。实机从清空到转相出手，由 2.1～2.6 秒缩短到 1.7～2.2 秒。\n2. 去掉心第一段的 5 秒下限：按住重击最早提前到上场 1.9 秒（视频是 1.94 秒），转相演完直接切卜灵，卜灵照样赶得上穗穗第一次翾舞。\n3. 万阙垂天如果把这一波怪清掉了，会等新怪刷出来（最多 4 秒）再变奏穗穗。穗穗变奏入场要打中怪才回协奏，打空的话后面大招前协奏不够，心第一段就不是变奏入场了。\n\n【穗穗】\n1. 大招前协奏不到 82% 一定先补够（大招只回 20 协奏），不再因为\"濯雨时快结束\"跳过补协奏，保证大招后能变奏心。\n\n【通用】\n1. 修正协奏环误读：框架偶尔把已经满了的协奏环读成 99%（环满了但没认成闭合），导致多打好几下普攻才切人。现在面积已满、连续 3 帧就当满。\n\n【注意】\n- 只用 6 链心实测过，低链数没测。\n- 变奏心时刻的余量收得比较紧（6.12 秒）。如果发现心第二段没吃到烟岚的攻击加成，请反馈。\n- 清场后等新怪最多 4 秒，整场打完等不到会照常切人。",
           "author": "楽山",
-          "version": "1.0.0",
+          "version": "1.2.0",
           "team": "Buling, Hsin, Suisui",
           "members": [
             "Buling",
             "Hsin",
             "Suisui"
           ],
-          "size": 41321,
-          "sizeFormatted": "40.35 KB",
-          "timestamp": 1791277510,
-          "modifiedAt": "2026-10-06T09:05:10.000Z"
+          "size": 53351,
+          "sizeFormatted": "52.1 KB",
+          "timestamp": 1791515900,
+          "modifiedAt": "2026-10-09T03:18:20.000Z"
         }
       ]
     },
@@ -1071,23 +1173,23 @@
       "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Hsin_Rover_Suisui.json",
       "codes": [
         {
-          "filename": "Hsin_Rover_Suisui_楽山_1.0.0.zip",
-          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Hsin_Rover_Suisui_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
-          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Hsin_Rover_Suisui_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+          "filename": "Hsin_Rover_Suisui_楽山_1.1.0.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Hsin_Rover_Suisui_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Hsin_Rover_Suisui_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
           "name": "Hsin_Rover_Suisui",
-          "description": "心雷穗轮椅轴\n样本：61心21雷（带千古）00穗（带5阶奇幻）\n共效：心128雷168（带新雷套 首位3C声骸）穗260\n位置：一号位穗穗 二号位雷主 三号位心\n实机已跑通 复现难度低 轴参考B站UP长风ei 可以自己去看流程",
+          "description": "心雷穗轮椅轴 \n样本：61心21雷（带千古）00穗（带5阶奇幻） \n共效：心128雷168（带新雷套 首位3C声骸）穗260 \n位置：一号位穗穗 二号位雷主 三号位心 \n实机已跑通 复现难度低 轴参考B站UP长风ei 可以自己去看流程\n心雷穗 v1.1.0 优化说明（相对 v1.0.0）\n【心】\n1. 转相提速：应世心一清空就松开重击（步红尘不会被打断），从这一刻起连按 R，转相一解锁就放出。实机从清空到转相出手 1.8～2.2 秒。\n2. 万阙垂天能量不够时先攒：临寰宇之后认不出万阙垂天图标，说明大招能量不够。以前直接不放，心会一直留在照世相；现在先普攻攒能量（最多 5 秒），认出来再放，按了没出就再攒一下重按。实在攒不到还是不按 R（防止放成借相）。\n3. 万阙垂天如果把这一波怪清掉了，会等新怪刷出来（最多 4 秒）再变奏穗穗。穗穗变奏入场要打中怪才回协奏，打空的话后面大招前协奏不够；而且濯雨时从变奏那一刻才开始算，等这一下不耽误。\n\n【穗穗】\n1. 大招前协奏不到 82% 一定先补够（大招只回 20 协奏），不再因为\"濯雨时快结束\"跳过补协奏，保证大招后能变奏雷主。\n\n【通用】\n1. 修正协奏环误读：框架偶尔把已经满了的协奏环读成 99%（环满了但没认成闭合），导致多打好几下普攻才切人。现在面积已满、连续 3 帧就当满。\n\n【实机】\n10 月 9 日跑了 3 圈循环：转相在应世心清空后 1.8～2.2 秒出手；每圈万阙垂天清场后等新怪 0.15～2.2 秒再变奏穗穗。\n\n【注意】\n- 清场后等新怪最多 4 秒，整场打完等不到会照常切人。",
           "author": "楽山",
-          "version": "1.0.0",
+          "version": "1.1.0",
           "team": "Hsin, Rover, Suisui",
           "members": [
             "Hsin",
             "Rover",
             "Suisui"
           ],
-          "size": 39964,
-          "sizeFormatted": "39.03 KB",
-          "timestamp": 1791277494,
-          "modifiedAt": "2026-10-06T09:04:54.000Z"
+          "size": 43517,
+          "sizeFormatted": "42.5 KB",
+          "timestamp": 1791515920,
+          "modifiedAt": "2026-10-09T03:18:40.000Z"
         }
       ]
     },
@@ -1282,23 +1384,23 @@
           "modifiedAt": "2026-08-28T03:39:28.000Z"
         },
         {
-          "filename": "Phoebe_Rover_Zani_芝士奶酪_1.0.1.zip",
-          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Phoebe_Rover_Zani_%E8%8A%9D%E5%A3%AB%E5%A5%B6%E9%85%AA_1.0.1.zip",
-          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Phoebe_Rover_Zani_%E8%8A%9D%E5%A3%AB%E5%A5%B6%E9%85%AA_1.0.1.zip",
+          "filename": "Phoebe_Rover_Zani_芝士奶酪_1.1.1.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Phoebe_Rover_Zani_%E8%8A%9D%E5%A3%AB%E5%A5%B6%E9%85%AA_1.1.1.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Phoebe_Rover_Zani_%E8%8A%9D%E5%A3%AB%E5%A5%B6%E9%85%AA_1.1.1.zip",
           "name": "Phoebe_Rover_Zani - 4终夜3终夜循环",
-          "description": "【使用说明】\n1. 共鸣链配置：01赞妮00菲比（1阶奇幻）65光主（5阶千古）。\n2. 共鸣效率适配：测试样本赞妮（衍射套）117.6%菲比（衍射套）194.2%光主（奶套）125.6%，没测试过最低共效，不过赞妮110-120%共效应该够用。\n3. 首发建议赞妮，并关闭ok-ww自动战斗中的开局切奶妈功能。P1为启动轴以压缩时间、保证赞妮4终夜，如果添加闪避第四个终夜尾刀伤害可能打不出就要释放r2。也就是4终夜和r2二选一，本次代码选择保留r2；P2为循环轴时间较宽裕，会根据菲比告解及R的剩余CD，动态安排光主AZ、E等动作填轴。\n4. 其他备注：玩家主要负责追怪、锁敌、站位以及针对怪物招式进行躲避。脚本不会自动判断与怪物的实际距离，也不能保证每次技能或攻击都实际命中目标。普通攻击及等待阶段可以手动闪避，但尽量避免在赞妮强化E、终夜、R2，以及菲比告解、R释放的瞬间闪避或手动释放其他技能，以免打断关键动作。赞妮非R状态下可自行释放F，但强化E已经亮起或正在释放时不要手动F；赞妮R期间也不要主动F，避免影响终夜与R2流程。手动F或闪避一般不会直接重置STEP，但可能使当前动作需要重新确认或延迟执行。\n由于不同怪物机制、高难环境、角色配置以及不同电脑和游戏运行环境均可能影响轴的复现，因此实际循环速度和稳定性可能存在差异。【注意】在攻击欲望比较强烈boss中，尽量多是使用闪避，不然赞妮很可能暴毙。毕竟活着才能有输出:)\n欢迎大家使用并提出优化意见。联系方式：3群，芝士奶酪qq1551547950",
+          "description": "【使用说明】\n\n1. 角色共鸣链最低适配：赞01菲00即可，光主无要求。\n   当前测试配置：01赞妮、00菲比（1阶奇幻）、65光主（5阶千古，非刚需）。\n\n2. 角色共鸣效率最低适配：待样本测试。\n   当前测试共鸣效率：\n   - 赞妮117.6%（衍射套首位荣光）\n   - 菲比194.2%（衍射套首位无要求，是脱手释放即可）\n   - 光主125.6%（奶套首位无归）\n\n   目前未完整测试最低共鸣效率，按照攻略赞菲120%以上会舒服一些，基本大招可以循环。\n\n3. 一号位 / 首发角色：\n   菲比。\n\n4. 自动切换治疗位：\n   关闭 OK-WW 自动战斗中的“开局切奶妈/自动切换治疗位”功能。\n\n5. 其他必要备注：\n   尽量不要在赞妮强化E、终夜、R2，以及菲比告解和R释放期间手动闪避或插入技能。\n\n6. 其他不必要备注：\n   使用场景：【低容错战斗】，适用于深塔、矩阵。\n\n   轴特色：\n   - 本轴流程为首轮4终夜，后续3终夜循环。不过由于没有怪物动作识别，所以轴的完美程度一定上还取决于怪，具体能打多少R2要视具体情况而定。在较好的输出环境下可以高容错打出4R2。在被怪肘击后依然可以从当前位置复位，确保流程可以进行（只是可能会掉一些buff），但是如果单次肘击内超时的话就只能重开了。\n   - 个人建议还是自己看时机释放闪避，收益比较高，能减少重开次数。\n\n   以下为本轴所用流程文字详解：\n   - P1为启动轴，重点压缩启动时间并争取赞妮4终夜；菲比告解 → R → E1/Q → 光主 E/Q/R → 赞妮 EA → 菲比 3A + Z1 → 赞妮预充普通E/A/ → 强化E → 菲比补协奏并保留一发Z → 赞妮强化E(此次为强化E释放保护，如果前面被怪打断强化E释放，这里检测到强化E可用会继续释放) + R1 + N1 → 光主机会E → 菲比Z/E1 → 赞妮N2 → 光主优先R → 赞妮N3 → 菲比告解 + R → 赞妮N4 + R2 + EA。\n   - 注意：若因闪避或受击导致第四个终夜尾刀来不及落地，则优先保证R2，因此第四终夜完整尾刀与R2在极端情况下可能二选一，本轴选择保R2。\n   - P2为循环轴，时间相对宽裕，会根据菲比告解与R的剩余CD，动态安排光主AZ、E等动作填轴：菲比Z1 → 赞妮预充E → 赞妮强化E → 菲比Z2并补协奏 → 赞妮强化E(此次为强化E释放保护，如果前面被怪打断强化E释放，这里检测到强化E可用会继续释放) + R1 + N1 → 光主机会技能（有啥放啥，没有就走） → 赞妮N2 → 菲比检查告解及R冷却 → 光主动态AZ/E填轴（按需）→ 菲比告解 + R → 赞妮N3 + R2 + EA → 返回P2循环。\n   \n   不同怪物机制、高难环境、角色配置、电脑性能及游戏运行环境都可能影响循环速度和稳定性。\n\n7. 版本号规范：\n   - 当前版本：1.1.1。\n\n欢迎使用并提出优化意见。\n联系方式：3群，芝士奶酪 QQ 1551547950",
           "author": "芝士奶酪",
-          "version": "1.0.1",
+          "version": "1.1.1",
           "team": "Phoebe, Rover, Zani",
           "members": [
             "Phoebe",
             "Rover",
             "Zani"
           ],
-          "size": 42455,
-          "sizeFormatted": "41.46 KB",
-          "timestamp": 1789825334,
-          "modifiedAt": "2026-09-19T13:42:14.000Z"
+          "size": 98356,
+          "sizeFormatted": "96.05 KB",
+          "timestamp": 1791619716,
+          "modifiedAt": "2026-10-10T08:08:36.000Z"
         }
       ]
     },
