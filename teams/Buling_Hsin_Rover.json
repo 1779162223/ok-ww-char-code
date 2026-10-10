@@ -6,7 +6,7 @@
     "Hsin",
     "Rover"
   ],
-  "totalCodes": 1,
+  "totalCodes": 2,
   "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Buling_Hsin_Rover.json",
   "codes": [
     {
@@ -27,6 +27,25 @@
       "sizeFormatted": "41.89 KB",
       "timestamp": 1791510936,
       "modifiedAt": "2026-10-09T01:55:36.000Z"
+    },
+    {
+      "filename": "心卜雷_亦_1.0.0.zip",
+      "downloadUrl": "https://okwwcharcode.ok-script.com/codes/%E5%BF%83%E5%8D%9C%E9%9B%B7_%E4%BA%A6_1.0.0.zip",
+      "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/%E5%BF%83%E5%8D%9C%E9%9B%B7_%E4%BA%A6_1.0.0.zip",
+      "name": "心卜雷",
+      "description": "25s轮椅轴，雷主带镜影套，切雷主先手\n狐狸120 雷主142 卜186（测试数据，非最低要求）\n共鸣链均适配\n一号位：日常随意，矩阵等建议雷主\n不开启自动切换治疗位\n可循环刷四c，实战31狐矩阵一层可达9500分\n轴参考b站不知名の百地",
+      "author": "亦",
+      "version": "1.0.0",
+      "team": "Buling, Hsin, Rover",
+      "members": [
+        "Buling",
+        "Hsin",
+        "Rover"
+      ],
+      "size": 51997,
+      "sizeFormatted": "50.78 KB",
+      "timestamp": 1791607592,
+      "modifiedAt": "2026-10-10T04:46:32.000Z"
     }
   ]
 }
