@@ -6,7 +6,7 @@
     "Phrolova",
     "Verina"
   ],
-  "totalCodes": 1,
+  "totalCodes": 2,
   "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Baizhi_Phrolova_Verina.json",
   "codes": [
     {
@@ -27,6 +27,25 @@
       "sizeFormatted": "4.03 KB",
       "timestamp": 1791477164,
       "modifiedAt": "2026-10-08T16:32:44.000Z"
+    },
+    {
+      "filename": "速刷4C_奉眠_1.0.0.zip",
+      "downloadUrl": "https://okwwcharcode.ok-script.com/codes/%E9%80%9F%E5%88%B74C_%E5%A5%89%E7%9C%A0_1.0.0.zip",
+      "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/%E9%80%9F%E5%88%B74C_%E5%A5%89%E7%9C%A0_1.0.0.zip",
+      "name": "速刷4C",
+      "description": "━━━━━━━━━━━━━━━━━━\n鳴潮 ok-ww 自動刷聲駭｜專刷 4C\n━━━━━━━━━━━━━━━━━━\n\n【隊伍配置】（入門／進階相同）\n出場順序：維里奈起手\n開始前：弗洛洛能量需刷滿（確保能施放強化重擊）\n\n▸ 弗洛洛\n　共鳴鏈：2 鏈\n　武器：專武 1 精\n▸ 維里奈\n　共鳴鏈：2 鏈\n　武器：精5奇幻（精1～4請自行測試）\n　套裝：隱世回光\n　主聲駭：無歸的謬誤（傷害足夠也可用烏龜）\n▸ 白芷（隨意，不死即可）\n　動作：只放聲駭技能\n　套裝：隱世回光\n　主聲駭：烏龜（掛 buff 用）\n\n💡 只帶弗、維兩人也能開刷，白芷是否需要請自行判斷\n\n【作者弗洛洛面板參考】\n▸ 暴擊率：99%\n▸ 暴擊傷害：277%\n▸ 攻擊力：2500\n▸ 共鳴技能傷害加成：25.5%\n▸ 湮滅傷害加成：102%\n▸ 聲駭技能傷害加成：55%\n\n⚠ 以上僅供參考，請自行測試你的角色能否穩定運行\n\n━━━━━━━━━━━━━━━━━━\n🔰 入門｜直接使用預設掛機\n━━━━━━━━━━━━━━━━━━\n\n【基本設定】\n▸ 戰鬥前後切治療：開啟\n▸ 使用共鳴解放：關閉\n\n【效率】\n▸ 其他週本：約 115 個／小時\n▸ 達妮婭週本：約 110 個／小時\n　（一次給兩個，刷來合成用）\n\n━━━━━━━━━━━━━━━━━━\n⚙️ 進階｜修改腳本提升效率\n━━━━━━━━━━━━━━━━━━\n\n⚠ 需要一定的動手能力，可詢問 AI 協助修改程式碼\n\n【修改檔案】\n① FarmEchoTask.py（刷聲駭任務，主要修改）\n② BaseWWTask.py（搜尋聲駭邏輯參考）\n\n路徑：\nC:\\Users\\<使用者名稱>\\AppData\\Local\\ok-ww\\data\\apps\\ok-ww\\working\\src\\task\\\n\n【修改項目】\n1. 新增 Boss 選項\n2. 開場閃避\n3. 閃避起算點提前\n4. 跳過結束等待\n　→ 撿完聲駭後不再等 5 秒確認戰鬥是否重啟，直接重新挑戰\n　→ 每輪省約 5 秒\n5. 搜尋聲駭改為直走\n　→ 沿用 BaseWWTask.py 原邏輯，改成直走，減少後退、前進浪費的時間\n\n【效率】\n▸ 達妮婭週本：約 137 個／小時\n　撿取成功率 99%｜實測穩定運行 24 小時\n▸ 其他週本：待測試\n\n━━━━━━━━━━━━━━━━━━",
+      "author": "奉眠",
+      "version": "1.0.0",
+      "team": "Baizhi, Phrolova, Verina",
+      "members": [
+        "Baizhi",
+        "Phrolova",
+        "Verina"
+      ],
+      "size": 6234,
+      "sizeFormatted": "6.09 KB",
+      "timestamp": 1791578967,
+      "modifiedAt": "2026-10-09T20:49:27.000Z"
     }
   ]
 }
