@@ -6,9 +6,28 @@
     "Chisa",
     "Ciaccona"
   ],
-  "totalCodes": 1,
+  "totalCodes": 2,
   "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Cartethyia_Chisa_Ciaccona.json",
   "codes": [
+    {
+      "filename": "Cartethyia_Chisa_Ciaccona_宇哥哥_1.0.0.zip",
+      "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Cartethyia_Chisa_Ciaccona_%E5%AE%87%E5%93%A5%E5%93%A5_1.0.0.zip",
+      "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Cartethyia_Chisa_Ciaccona_%E5%AE%87%E5%93%A5%E5%93%A5_1.0.0.zip",
+      "name": "Cartethyia_Chisa_Ciaccona",
+      "description": "1.角色共鸣链本人21卡01夏01千，因为是双下落轴对2链以下的卡收益不大，辅助无要求。\n2.角色共鸣效率最低适配情况不清除，测试账号卡提109，夏空145，千咲144\n3.角色执行一号位卡提希娅\n4.是否开启自动切换治疗位：否\n5.其他必要备注：矩阵专用，只用来凹分。修改了原框架是否处于战斗状态的的逻辑判断，因为矩阵战斗中可能轴打到一半怪物死了，刷新又卡了3-4秒，所以实际不应退出战斗状态却被接管了，打出和轴不一样的操作。该轴增加了较多容错，未打出的操作会有补偿逻辑，切人会多次重试等。如果多次触发补偿操作可能无法完整打出4R2。\n6.其他不必要备注：【低容错战斗】【终焉矩阵】该轴是卡夏千终焉矩阵专用特化，其他场景未测试。\n7.版本号:1.0.0",
+      "author": "宇哥哥",
+      "version": "1.0.0",
+      "team": "Cartethyia, Chisa, Ciaccona",
+      "members": [
+        "Cartethyia",
+        "Chisa",
+        "Ciaccona"
+      ],
+      "size": 12271,
+      "sizeFormatted": "11.98 KB",
+      "timestamp": 1791828467,
+      "modifiedAt": "2026-10-12T18:07:47.000Z"
+    },
     {
       "filename": "Cartethyia_Chisa_Ciaccona_楽山_1.0.0.zip",
       "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Cartethyia_Chisa_Ciaccona_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
