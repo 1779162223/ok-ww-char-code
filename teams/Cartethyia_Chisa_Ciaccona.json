@@ -6,9 +6,28 @@
     "Chisa",
     "Ciaccona"
   ],
-  "totalCodes": 2,
+  "totalCodes": 3,
   "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Cartethyia_Chisa_Ciaccona.json",
   "codes": [
+    {
+      "filename": "Cartethyia_Chisa_Ciaccona_rain-z_1.0.0.zip",
+      "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Cartethyia_Chisa_Ciaccona_rain-z_1.0.0.zip",
+      "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Cartethyia_Chisa_Ciaccona_rain-z_1.0.0.zip",
+      "name": "Cartethyia_Chisa_Ciaccona",
+      "description": "卡夏千5r8下落轴\n样本：61卡00夏（2阶华彩）21千\n样本共效：卡提125 夏空171 千咲134\n位置：必须1号位卡提，2号位夏空，3号位千咲\n\n使用说明：\n1.必须卡提起手，可以直接重开，卡提和夏空声骸为大卡剑\n2.【低容错战斗】【终焉矩阵】适用，针对第5轮做了特化\n3.卡提位有一点容错，其他位置无容错。\n\n测试：已经过实战测试，矩阵第一轮第一个怪起手，经过4次转火到宝箱怪，可以打出5r2，复现难度不是特别高。深塔中塔1234用于测试，可以完成战斗",
+      "author": "rain-z",
+      "version": "1.0.0",
+      "team": "Cartethyia, Chisa, Ciaccona",
+      "members": [
+        "Cartethyia",
+        "Chisa",
+        "Ciaccona"
+      ],
+      "size": 15221,
+      "sizeFormatted": "14.86 KB",
+      "timestamp": 1791858986,
+      "modifiedAt": "2026-10-13T02:36:26.000Z"
+    },
     {
       "filename": "Cartethyia_Chisa_Ciaccona_宇哥哥_1.0.0.zip",
       "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Cartethyia_Chisa_Ciaccona_%E5%AE%87%E5%93%A5%E5%93%A5_1.0.0.zip",
