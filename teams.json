@@ -2,8 +2,8 @@
   "repository": "ok-oldking/ok-ww-char-code",
   "pageUrl": "https://okwwcharcode.ok-script.com",
   "jsonUrl": "https://okwwcharcode.ok-script.com/teams.json",
-  "totalTeams": 38,
-  "totalCodes": 51,
+  "totalTeams": 40,
+  "totalCodes": 55,
   "teams": [
     {
       "team": "Baizhi, Phrolova, Verina",
@@ -36,23 +36,23 @@
           "modifiedAt": "2026-10-08T16:32:44.000Z"
         },
         {
-          "filename": "速刷4C_奉眠_1.0.0.zip",
-          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/%E9%80%9F%E5%88%B74C_%E5%A5%89%E7%9C%A0_1.0.0.zip",
-          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/%E9%80%9F%E5%88%B74C_%E5%A5%89%E7%9C%A0_1.0.0.zip",
+          "filename": "速刷4C_奉眠_1.0.1.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/%E9%80%9F%E5%88%B74C_%E5%A5%89%E7%9C%A0_1.0.1.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/%E9%80%9F%E5%88%B74C_%E5%A5%89%E7%9C%A0_1.0.1.zip",
           "name": "速刷4C",
-          "description": "━━━━━━━━━━━━━━━━━━\n鳴潮 ok-ww 自動刷聲駭｜專刷 4C\n━━━━━━━━━━━━━━━━━━\n\n【隊伍配置】（入門／進階相同）\n出場順序：維里奈起手\n開始前：弗洛洛能量需刷滿（確保能施放強化重擊）\n\n▸ 弗洛洛\n　共鳴鏈：2 鏈\n　武器：專武 1 精\n▸ 維里奈\n　共鳴鏈：2 鏈\n　武器：精5奇幻（精1～4請自行測試）\n　套裝：隱世回光\n　主聲駭：無歸的謬誤（傷害足夠也可用烏龜）\n▸ 白芷（隨意，不死即可）\n　動作：只放聲駭技能\n　套裝：隱世回光\n　主聲駭：烏龜（掛 buff 用）\n\n💡 只帶弗、維兩人也能開刷，白芷是否需要請自行判斷\n\n【作者弗洛洛面板參考】\n▸ 暴擊率：99%\n▸ 暴擊傷害：277%\n▸ 攻擊力：2500\n▸ 共鳴技能傷害加成：25.5%\n▸ 湮滅傷害加成：102%\n▸ 聲駭技能傷害加成：55%\n\n⚠ 以上僅供參考，請自行測試你的角色能否穩定運行\n\n━━━━━━━━━━━━━━━━━━\n🔰 入門｜直接使用預設掛機\n━━━━━━━━━━━━━━━━━━\n\n【基本設定】\n▸ 戰鬥前後切治療：開啟\n▸ 使用共鳴解放：關閉\n\n【效率】\n▸ 其他週本：約 115 個／小時\n▸ 達妮婭週本：約 110 個／小時\n　（一次給兩個，刷來合成用）\n\n━━━━━━━━━━━━━━━━━━\n⚙️ 進階｜修改腳本提升效率\n━━━━━━━━━━━━━━━━━━\n\n⚠ 需要一定的動手能力，可詢問 AI 協助修改程式碼\n\n【修改檔案】\n① FarmEchoTask.py（刷聲駭任務，主要修改）\n② BaseWWTask.py（搜尋聲駭邏輯參考）\n\n路徑：\nC:\\Users\\<使用者名稱>\\AppData\\Local\\ok-ww\\data\\apps\\ok-ww\\working\\src\\task\\\n\n【修改項目】\n1. 新增 Boss 選項\n2. 開場閃避\n3. 閃避起算點提前\n4. 跳過結束等待\n　→ 撿完聲駭後不再等 5 秒確認戰鬥是否重啟，直接重新挑戰\n　→ 每輪省約 5 秒\n5. 搜尋聲駭改為直走\n　→ 沿用 BaseWWTask.py 原邏輯，改成直走，減少後退、前進浪費的時間\n\n【效率】\n▸ 達妮婭週本：約 137 個／小時\n　撿取成功率 99%｜實測穩定運行 24 小時\n▸ 其他週本：待測試\n\n━━━━━━━━━━━━━━━━━━",
+          "description": "速刷 4C\n━━━━━━━━━━━━━━━━━━\n【隊伍配置】（入門／進階相同）\n前提：弗洛洛需能秒殺 Boss\n出場順序：維里奈起手\n開始前：弗洛洛能量需刷滿（確保能施放強化重擊）\n▸ 弗洛洛\n　共鳴鏈：2 鏈\n　武器：精1專武\n▸ 維里奈\n　共鳴鏈：2 鏈\n　武器：精5奇幻（精1～4請自行測試）\n　套裝：隱世回光\n　主聲駭：烏龜（較穩定）；傷害不足時改用無歸的謬誤\n▸ 白芷（隨意，不死即可）\n　動作：預設只放聲駭技能，如需施放其他技能需自行修改程式碼\n　套裝：隱世回光\n　主聲駭：烏龜（掛 buff 用）\n💡 只帶弗、維兩人也能開刷，白芷是否需要請自行判斷\n【作者弗洛洛面板參考】\n▸ 暴擊率：99%\n▸ 暴擊傷害：277%\n▸ 攻擊力：2500\n▸ 共鳴技能傷害加成：25.5%\n▸ 湮滅傷害加成：102%\n▸ 聲駭技能傷害加成：55%\n⚠ 以上僅供參考，請自行測試你的角色能否穩定運行\n━━━━━━━━━━━━━━━━━━\n🔰 入門｜直接使用預設掛機\n━━━━━━━━━━━━━━━━━━\n【基本設定】\n▸ 戰鬥前後切治療：開啟\n▸ 使用共鳴解放：關閉\n【效率】\n▸ 其他週本：約 115 個／小時\n▸ 達妮婭週本：約 110 個／小時\n　（一次給兩個，刷來合成用）\n━━━━━━━━━━━━━━━━━━\n⚙️ 進階｜修改腳本提升效率\n━━━━━━━━━━━━━━━━━━\n⚠ 需要一定的動手能力，可詢問 AI 協助修改程式碼\n【修改檔案】\n① FarmEchoTask.py（刷聲駭任務，主要修改）\n② BaseWWTask.py（搜尋聲駭邏輯參考）\n路徑：\nC:\\Users\\<使用者名稱>\\AppData\\Local\\ok-ww\\data\\apps\\ok-ww\\working\\src\\task\\\n【修改項目】\n1. 新增 Boss 選項\n2. 開場閃避\n3. 閃避起算點提前\n4. 跳過結束等待\n　→ 撿完聲駭後不再等 5 秒確認戰鬥是否重啟，直接重新挑戰\n　→ 每輪省約 5 秒\n5. 搜尋聲駭改為直走\n　→ 沿用 BaseWWTask.py 原邏輯，改成直走，減少後退、前進浪費的時間\n【效率】\n▸ 達妮婭週本：約 137 個／小時\n　撿取成功率 99%｜實測穩定運行 24 小時\n▸ 其他週本：待測試\n━━━━━━━━━━━━━━━━━━\n1.0.0 初版\n1.0.1 優化維里奈穩定性+白芷技能是否施放(改代碼)",
           "author": "奉眠",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "team": "Baizhi, Phrolova, Verina",
           "members": [
             "Baizhi",
             "Phrolova",
             "Verina"
           ],
-          "size": 6234,
-          "sizeFormatted": "6.09 KB",
-          "timestamp": 1791578967,
-          "modifiedAt": "2026-10-09T20:49:27.000Z"
+          "size": 6843,
+          "sizeFormatted": "6.68 KB",
+          "timestamp": 1791740299,
+          "modifiedAt": "2026-10-11T17:38:19.000Z"
         }
       ]
     },
@@ -221,30 +221,11 @@
           "modifiedAt": "2026-08-19T02:51:38.000Z"
         },
         {
-          "filename": "Aemeath_Lynae_Mornye_楽山_1.0.0.zip",
-          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
-          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
-          "name": "Aemeath_Lynae_Mornye",
-          "description": "爱琳莫5R2椰果轴\n此轴已经实机跑通，可以复现，但是实战中BOSS不同，转火次数不同，复现成功率较低，切本轴没有保底机制，如果被肘次数过多，可能会导致彻底失败，使用时请注意",
-          "author": "楽山",
-          "version": "1.0.0",
-          "team": "Aemeath, Lynae, Mornye",
-          "members": [
-            "Aemeath",
-            "Lynae",
-            "Mornye"
-          ],
-          "size": 90009,
-          "sizeFormatted": "87.9 KB",
-          "timestamp": 1787107406,
-          "modifiedAt": "2026-08-19T02:43:26.000Z"
-        },
-        {
           "filename": "Aemeath_Lynae_Mornye_楽山_1.1.0.zip",
           "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
           "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
           "name": "Aemeath_Lynae_Mornye",
-          "description": "爱琳莫标准轴\n位置：一号位爱弥斯 二号位琳奈 三号位莫宁\n练度达到基本推荐练度即可\n此代码在之前群友代码的基础上，增加了对于琳奈协奏值的保底，确保在满协奏的情况下变奏爱弥斯。",
+          "description": "爱琳莫5R2椰果轴 （0链爱适用）\n样本：61爱00琳10莫（5阶异响）\n共效：爱弥斯128 琳奈142 莫宁290\n位置：一号位莫宁 二号位琳奈 三号位爱弥斯\n\n此轴已经实机跑通，可以复现，但是实战中BOSS不同，转火次数不同，复现成功率较低，切本轴没有保底机制，如果被肘次数过多，可能会导致彻底失败，使用时请注意\n\n【优化】10/12\n1. 中途重来更方便：被打断、击飞或者转火把轴打乱了，不用重进副本，关一次自动战斗再打开，就会从启动轴第一步重新打。开关时如果琳奈在场，会直接切给莫宁起手，不会先把琳奈的 E 和 R 用掉。\n2. 循环轴琳奈重击接大招更稳：琳奈蓄力重击有两段伤害。旧版看到第一段后固定等 0.45 秒再开 R，两段挨得近的时候，R 会拖到空翻收招之后才出。现在等第二段伤害一打出来就马上开 R，大约快 0.2~0.5 秒，也不会把第二段打断。",
           "author": "楽山",
           "version": "1.1.0",
           "team": "Aemeath, Lynae, Mornye",
@@ -253,10 +234,29 @@
             "Lynae",
             "Mornye"
           ],
-          "size": 5851,
-          "sizeFormatted": "5.71 KB",
-          "timestamp": 1789993280,
-          "modifiedAt": "2026-09-21T12:21:20.000Z"
+          "size": 92780,
+          "sizeFormatted": "90.61 KB",
+          "timestamp": 1791762759,
+          "modifiedAt": "2026-10-11T23:52:39.000Z"
+        },
+        {
+          "filename": "Aemeath_Lynae_Mornye_楽山_2.0.0.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_2.0.0.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_2.0.0.zip",
+          "name": "Aemeath_Lynae_Mornye",
+          "description": "爱琳莫5R2（1链及以上爱弥斯限定）\n样本：61爱 00琳 11莫\n共效：爱弥斯128 琳奈142 莫宁290（共效仅为参考）\n位置：一号位莫宁 二号位琳奈 三号位 爱弥斯\n实机已通过，复现难度高，转火次数多复现难度继续加大，最好分辨率在2K/1K下，保证游戏ping值稳定且不卡，游戏内插帧开关关闭可以稳定120帧及以上（可以开启N卡插帧），优化了重启流程，现在流程错误可以马上关闭自动战斗开关再开启，重置启动流程。建议宝箱开，或者大体型boss开，避免琳奈协奏能量吃不满。",
+          "author": "楽山",
+          "version": "2.0.0",
+          "team": "Aemeath, Lynae, Mornye",
+          "members": [
+            "Aemeath",
+            "Lynae",
+            "Mornye"
+          ],
+          "size": 117696,
+          "sizeFormatted": "114.94 KB",
+          "timestamp": 1791762694,
+          "modifiedAt": "2026-10-11T23:51:34.000Z"
         }
       ]
     },
@@ -368,23 +368,23 @@
       "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Buling_Hsin_Rover.json",
       "codes": [
         {
-          "filename": "Buling_Hsin_Rover_coyomii_1.0.0.zip",
-          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Buling_Hsin_Rover_coyomii_1.0.0.zip",
-          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Buling_Hsin_Rover_coyomii_1.0.0.zip",
+          "filename": "Buling_Hsin_Rover_coyomii_1.0.1.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Buling_Hsin_Rover_coyomii_1.0.1.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Buling_Hsin_Rover_coyomii_1.0.1.zip",
           "name": "Buling_Hsin_Rover",
-          "description": "【使用说明】\n1. 最低共鸣链适配：01心、21雷主（带千古，声骸带轻云或镜影）、60Buling；低于该配置暂未测试。\n2. 测试共鸣效率：心120%+、雷主130%+、Buling180%+；以上为当前测试参考值，不代表绝对最低门槛。\n3. 一号位角色：心。\n4. 自动切换治疗位：不需要开启。\n5. 轴的特色：本代码参考B站长风ei的心雷Buling25秒轮椅轴。",
+          "description": "【使用说明】\n1. 最低共鸣链适配：01心、21雷主（带千古，声骸带轻云或镜影）、60卜灵（奇幻最好）；低于该配置暂未测试。\n2. 测试共鸣效率：心120%+、雷主130%+、卜灵180%+；以上为当前测试参考值，不代表绝对最低门槛。\n3. 一号位角色：心。\n4. 自动切换治疗位：不需要开启。本代码不把卜灵算作奶妈。\n5. 轴的特色：本代码参考B站长风ei的心雷卜灵25秒轮椅轴。\n\n【V1.0.1】优化内容\n1. 缩短卜灵二段重击0.2s。\n2. 缩短雷主变奏后E的时间间隔0.5s。\n3. 加入目标丢失保护：连续两次检测不到目标会尝试重锁，失败就停止当前轴，避免敌人死亡后继续攻击。\n4. 新增心R2未满情况下平A补偿机制。\n5. 本轴使用优先级（均已测试）:【海墟下半】3280>【矩阵】R1开8000=【深塔】>【海墟上半】2460=【日常】\n6. 适用等级：【日常】。已测试无需人工干预完成刷聚落、刷4C、大世界战斗，并适配被肘、协奏未满、大招未满等异常情况。",
           "author": "coyomii",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "team": "Buling, Hsin, Rover",
           "members": [
             "Buling",
             "Hsin",
             "Rover"
           ],
-          "size": 42899,
-          "sizeFormatted": "41.89 KB",
-          "timestamp": 1791510936,
-          "modifiedAt": "2026-10-09T01:55:36.000Z"
+          "size": 38523,
+          "sizeFormatted": "37.62 KB",
+          "timestamp": 1791854975,
+          "modifiedAt": "2026-10-13T01:29:35.000Z"
         },
         {
           "filename": "心卜雷_亦_1.0.0.zip",
@@ -547,23 +547,23 @@
       "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Buling_Cantarella_Phrolova.json",
       "codes": [
         {
-          "filename": "Cantarella_Buling_Phrolova_楽山_1.0.0.zip",
-          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Cantarella_Buling_Phrolova_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
-          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Cantarella_Buling_Phrolova_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+          "filename": "Cantarella_Buling_Phrolova_楽山_1.1.0.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Cantarella_Buling_Phrolova_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Cantarella_Buling_Phrolova_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
           "name": "Cantarella_Buling_Phrolova",
-          "description": "弗坎卜轮椅轴 \n样本：21弗01坎60卜（精2奇幻） \n共效：弗100坎150卜240（仅供参考）\n位置：一号位弗洛洛 二号位坎 三号位卜灵\n实机已跑通 复现难度中 主要问题在于打不出最后一个一日谱 只能4谱 对于面对一些粪怪 可以在操控弗洛洛或者坎的时候 手动闪避一下 不影响流程  注意：由于本次对于弗和坎的强化技能一些图像颜色检测是基于本人环境截图 有可能会在一些人的显示环境里识别不够稳定",
+          "description": "弗坎卜轮椅轴\n样本：21弗01坎60卜灵（核熔星盘/或其他带协奏的武器）\n共效：弗100坎150卜180\n位置：一号位弗洛洛 二号位坎 三号位卜灵\nv1.1.0 优化：\n· 坎特蕾拉放完 Q 协奏没满，先补满再变奏弗洛洛\n· 启动轴弗洛洛开重击改为白+黄都亮，不再被亮地面误判\n· 卜灵两段重击改为读卦象栏：卦象被吃掉就松手，缺阴/阳自动补卦象；读不到时退回外圈颜色判断\n· 卜灵 A4 的震一出现就停 A；补协奏差一点时只点 A，不再多按重击\n· 开关一次自动战斗即从启动轴重新开始\n· 16:9，2K / 1080p 已验，默认键位",
           "author": "楽山",
-          "version": "1.0.0",
+          "version": "1.1.0",
           "team": "Buling, Cantarella, Phrolova",
           "members": [
             "Buling",
             "Cantarella",
             "Phrolova"
           ],
-          "size": 96369,
-          "sizeFormatted": "94.11 KB",
-          "timestamp": 1789601927,
-          "modifiedAt": "2026-09-16T23:38:47.000Z"
+          "size": 114983,
+          "sizeFormatted": "112.29 KB",
+          "timestamp": 1791825200,
+          "modifiedAt": "2026-10-12T17:13:20.000Z"
         }
       ]
     },
@@ -579,23 +579,23 @@
       "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Cantarella_Galbrena_Phrolova.json",
       "codes": [
         {
-          "filename": "Cantarella_Galbrena_Phrolova_EEEEEEEEdison_1.0.0.zip",
-          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Cantarella_Galbrena_Phrolova_EEEEEEEEdison_1.0.0.zip",
-          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Cantarella_Galbrena_Phrolova_EEEEEEEEdison_1.0.0.zip",
-          "name": "Cantarella_Galbrena_Phrolova",
-          "description": "坎特蕾拉一号位开，最低共鸣效率未测，实测共鸣效率：坎特蕾拉133，嘉贝莉娜133。理论上嘉贝莉娜共鸣效率越高越好。4金应该能打过宝箱怪。",
+          "filename": "Cantarella_Galbrena_Phrolova_EEEEEEEEdison_1.0.1.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Cantarella_Galbrena_Phrolova_EEEEEEEEdison_1.0.1.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Cantarella_Galbrena_Phrolova_EEEEEEEEdison_1.0.1.zip",
+          "name": "弗坎嘉 30秒轮椅轴",
+          "description": "【中容错战斗】；坎特蕾拉一号位开，开启关闭自动切换治疗位无影响；最低共鸣效率未测，实测共鸣效率：坎特蕾拉133，嘉贝莉娜133。理论上嘉贝莉娜共鸣效率越高越好。4金应该能打过宝箱怪。",
           "author": "EEEEEEEEdison",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "team": "Cantarella, Galbrena, Phrolova",
           "members": [
             "Cantarella",
             "Galbrena",
             "Phrolova"
           ],
-          "size": 8277,
-          "sizeFormatted": "8.08 KB",
-          "timestamp": 1789119228,
-          "modifiedAt": "2026-09-11T09:33:48.000Z"
+          "size": 18913,
+          "sizeFormatted": "18.47 KB",
+          "timestamp": 1791894103,
+          "modifiedAt": "2026-10-13T12:21:43.000Z"
         }
       ]
     },
@@ -643,23 +643,23 @@
       "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Cantarella_Mornye_Phrolova.json",
       "codes": [
         {
-          "filename": "Cantarella_Mornye_Phrolova_楽山_1.0.0.zip",
-          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Cantarella_Mornye_Phrolova_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
-          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Cantarella_Mornye_Phrolova_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
+          "filename": "Cantarella_Mornye_Phrolova_楽山_1.1.1.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Cantarella_Mornye_Phrolova_%E6%A5%BD%E5%B1%B1_1.1.1.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Cantarella_Mornye_Phrolova_%E6%A5%BD%E5%B1%B1_1.1.1.zip",
           "name": "Cantarella_Mornye_Phrolova",
-          "description": "弗坎莫轮椅轴\n样本：21弗01坎10莫（精5异响）\n共效：弗100坎150莫260（仅供参考）\n位置：一号位莫宁 二号位坎 三号位弗洛洛\n实机已跑通 复现难度中 主要问题在于可能打不出最后一个一日谱 只能4谱 对于面对一些粪怪 可以在操控弗洛洛或者坎的时候 手动闪避一下 不影响流程 但是一旦手动闪避接入 一般情况下是打不出5谱的 \n注意：由于本次对于弗和坎的强化技能一些图像颜色检测是基于本人环境截图 有可能会在一些人的显示环境里识别不够稳定",
+          "description": "弗坎莫轮椅轴\n样本：21弗01坎10莫（精5异响）\n共效：弗100坎150莫260（仅供参考）\n位置：一号位莫宁 二号位坎 三号位弗洛洛\n实机已跑通 复现难度中 主要问题在于可能打不出最后一个一日谱 只能4谱 对于面对一些粪怪 可以在操控弗洛洛或者坎的时候 手动闪避一下 不影响流程 但是一旦手动闪避接入 一般情况下是打不出5谱的\n注意：由于本次对于弗和坎的强化技能一些图像颜色检测是基于本人环境截图 有可能会在一些人的显示环境里识别不够稳定\nv1.1.1 优化：\n· 弗洛洛攒音符按「4A8赫」重做：第一轮 A3→闪避→强化A→普通E→强化A，之后每轮 A3→闪避→强化A\n· Q 改为强化A 出手后再按，不再吞掉强化A\n· 音符满、鼠标指示一亮立刻重击（强化重击有 25 秒冷却，音符先满时多打一会儿属正常）\n· 循环轴第一轮按音符形状判断 A3 是否打中，不受红色特效干扰\n· 坎特蕾拉强化E 改按环的真实颜色识别，漏按时放 Q 前补按（修复 v1.1.0 强化E 按不出）\n· 开关一次自动战斗即从启动轴重新开始\n· 16:9，2K / 1080p 已验，默认键位",
           "author": "楽山",
-          "version": "1.0.0",
+          "version": "1.1.1",
           "team": "Cantarella, Mornye, Phrolova",
           "members": [
             "Cantarella",
             "Mornye",
             "Phrolova"
           ],
-          "size": 88904,
-          "sizeFormatted": "86.82 KB",
-          "timestamp": 1788216993,
-          "modifiedAt": "2026-08-31T22:56:33.000Z"
+          "size": 101472,
+          "sizeFormatted": "99.09 KB",
+          "timestamp": 1791824356,
+          "modifiedAt": "2026-10-12T16:59:16.000Z"
         }
       ]
     },
@@ -703,9 +703,47 @@
         "Chisa",
         "Ciaccona"
       ],
-      "totalCodes": 1,
+      "totalCodes": 3,
       "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Cartethyia_Chisa_Ciaccona.json",
       "codes": [
+        {
+          "filename": "Cartethyia_Chisa_Ciaccona_rain-z_1.0.0.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Cartethyia_Chisa_Ciaccona_rain-z_1.0.0.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Cartethyia_Chisa_Ciaccona_rain-z_1.0.0.zip",
+          "name": "Cartethyia_Chisa_Ciaccona",
+          "description": "卡夏千5r8下落轴\n样本：61卡00夏（2阶华彩）21千\n样本共效：卡提125 夏空171 千咲134\n位置：必须1号位卡提，2号位夏空，3号位千咲\n\n使用说明：\n1.必须卡提起手，可以直接重开，卡提和夏空声骸为大卡剑\n2.【低容错战斗】【终焉矩阵】适用，针对第5轮做了特化\n3.卡提位有一点容错，其他位置无容错。\n\n测试：已经过实战测试，矩阵第一轮第一个怪起手，经过4次转火到宝箱怪，可以打出5r2，复现难度不是特别高。深塔中塔1234用于测试，可以完成战斗",
+          "author": "rain-z",
+          "version": "1.0.0",
+          "team": "Cartethyia, Chisa, Ciaccona",
+          "members": [
+            "Cartethyia",
+            "Chisa",
+            "Ciaccona"
+          ],
+          "size": 15221,
+          "sizeFormatted": "14.86 KB",
+          "timestamp": 1791858986,
+          "modifiedAt": "2026-10-13T02:36:26.000Z"
+        },
+        {
+          "filename": "Cartethyia_Chisa_Ciaccona_宇哥哥_1.0.0.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Cartethyia_Chisa_Ciaccona_%E5%AE%87%E5%93%A5%E5%93%A5_1.0.0.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Cartethyia_Chisa_Ciaccona_%E5%AE%87%E5%93%A5%E5%93%A5_1.0.0.zip",
+          "name": "Cartethyia_Chisa_Ciaccona",
+          "description": "1.角色共鸣链本人21卡01夏01千，因为是双下落轴对2链以下的卡收益不大，辅助无要求。\n2.角色共鸣效率最低适配情况不清除，测试账号卡提109，夏空145，千咲144\n3.角色执行一号位卡提希娅\n4.是否开启自动切换治疗位：否\n5.其他必要备注：矩阵专用，只用来凹分。修改了原框架是否处于战斗状态的的逻辑判断，因为矩阵战斗中可能轴打到一半怪物死了，刷新又卡了3-4秒，所以实际不应退出战斗状态却被接管了，打出和轴不一样的操作。该轴增加了较多容错，未打出的操作会有补偿逻辑，切人会多次重试等。如果多次触发补偿操作可能无法完整打出4R2。\n6.其他不必要备注：【低容错战斗】【终焉矩阵】该轴是卡夏千终焉矩阵专用特化，其他场景未测试。\n7.版本号:1.0.0",
+          "author": "宇哥哥",
+          "version": "1.0.0",
+          "team": "Cartethyia, Chisa, Ciaccona",
+          "members": [
+            "Cartethyia",
+            "Chisa",
+            "Ciaccona"
+          ],
+          "size": 12271,
+          "sizeFormatted": "11.98 KB",
+          "timestamp": 1791828467,
+          "modifiedAt": "2026-10-12T18:07:47.000Z"
+        },
         {
           "filename": "Cartethyia_Chisa_Ciaccona_楽山_1.0.0.zip",
           "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Cartethyia_Chisa_Ciaccona_%E6%A5%BD%E5%B1%B1_1.0.0.zip",
@@ -875,6 +913,38 @@
       ]
     },
     {
+      "team": "Chixia, Phrolova, Verina",
+      "slug": "Chixia_Phrolova_Verina",
+      "members": [
+        "Chixia",
+        "Phrolova",
+        "Verina"
+      ],
+      "totalCodes": 1,
+      "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Chixia_Phrolova_Verina.json",
+      "codes": [
+        {
+          "filename": "Chixia_Phrolova_Verina_琉璃_1.0.0.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Chixia_Phrolova_Verina_%E7%90%89%E7%92%83_1.0.0.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Chixia_Phrolova_Verina_%E7%90%89%E7%92%83_1.0.0.zip",
+          "name": "Chixia_Phrolova_Verina",
+          "description": "弗维刷boss2.0（）内置 不同连招模板！！！可在角色代码处改弗和维的，适配0-6弗和0-6维，不过0弗的话，除非你没其他高链角色和角色池少的话，不让应该是没其他配队快的，不过也可以试试\n1.全适配共鸣链\n2.无共鸣效率需求\n3.谁都可以1号位进场\n4.开启自动切换治疗位，关闭开启大招\n5.维4c带无归最好\n6.刷boss队",
+          "author": "琉璃",
+          "version": "1.0.0",
+          "team": "Chixia, Phrolova, Verina",
+          "members": [
+            "Chixia",
+            "Phrolova",
+            "Verina"
+          ],
+          "size": 4059,
+          "sizeFormatted": "3.96 KB",
+          "timestamp": 1791736919,
+          "modifiedAt": "2026-10-11T16:41:59.000Z"
+        }
+      ]
+    },
+    {
       "team": "Denia, Mornye, Qingxiao",
       "slug": "Denia_Mornye_Qingxiao",
       "members": [
@@ -1007,23 +1077,23 @@
           "modifiedAt": "2026-09-13T22:52:56.000Z"
         },
         {
-          "filename": "Hiyuki_Lucilla_Suisui_楽山_1.1.0.zip",
-          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Hiyuki_Lucilla_Suisui_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
-          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Hiyuki_Lucilla_Suisui_%E6%A5%BD%E5%B1%B1_1.1.0.zip",
+          "filename": "Hiyuki_Lucilla_Suisui_楽山_1.1.1.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Hiyuki_Lucilla_Suisui_%E6%A5%BD%E5%B1%B1_1.1.1.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Hiyuki_Lucilla_Suisui_%E6%A5%BD%E5%B1%B1_1.1.1.zip",
           "name": "Hiyuki_Lucilla_Suisui",
-          "description": "绯洛穗启动3居循环4居轴 \n样本：61绯雪00洛00穗 \n共效：绯雪127洛瑟拉161穗穗270 \n位置：一号位穗穗 二号位洛瑟拉 三号位绯雪\n提示：2链以下绯雪是否能有三居合未知，未实测\n绯洛穗 v1.1.0 优化内容\n1. 绯雪启动轴缩短为 A3→处决(有提示时)/闪避→EE→三居合→重击→R2，开场容错更高\n2. 穗穗启动轴强化E被打断会补按，确认放出才往下走\n3. 穗穗循环轴：回路满了R没亮会继续打到亮；没攒满三格时改普攻；放R前协奏不够先补\n4. 绯雪R2打死怪后先等下一波再切穗穗，不再愣住\n5. 洛瑟拉长按E按录屏校准到完美焦距(0.95s)，对焦期间连点R，回路一满马上开R\n6. 洛瑟拉变奏入场更早按E；变身结束协奏满就切绯雪，不再多A一下",
+          "description": "绯洛穗启动3居循环4居轴\n样本：61绯雪00洛00穗\n共效：绯雪127洛瑟拉161穗穗270\n位置：一号位穗穗 二号位洛瑟拉 三号位绯雪\n实机已跑通。v1.1.0 优化：\n1. 绯雪启动轴缩短为 A3→处决(有提示时)/闪避→EE→三居合→重击→R2，开场容错更高\n2. 穗穗启动轴强化E被打断会补按，确认放出才往下走\n3. 穗穗循环轴：回路满了R没亮会继续打到亮；没攒满三格时改普攻；放R前协奏不够先补\n4. 绯雪R2打死怪后先等下一波再切穗穗，不再愣住\n5. 洛瑟拉长按E按录屏校准到完美焦距(0.95s)，对焦期间连点R，回路一满马上开R\n6. 洛瑟拉变奏入场更早按E；变身结束协奏满就切绯雪，不再多A一下\nv1.1.1 优化：\n1. 洛瑟拉对焦成功后等追光结算完(约0.9s)再开R，不再打断追光少拿协奏，保证绯雪能变奏入场\n2. 洛瑟拉判断R是否放出更严格，被特效挡住画面不会误判成已放出而停按R\n3. 洛瑟拉回场时如果还在变身(追忆)状态，会自动长按攻击把照片打完退出，再正常交棒\n4. 修复R刚好在超时前放出时不打变身段、带着变身状态下场的问题",
           "author": "楽山",
-          "version": "1.1.0",
+          "version": "1.1.1",
           "team": "Hiyuki, Lucilla, Suisui",
           "members": [
             "Hiyuki",
             "Lucilla",
             "Suisui"
           ],
-          "size": 35339,
-          "sizeFormatted": "34.51 KB",
-          "timestamp": 1791456904,
-          "modifiedAt": "2026-10-08T10:55:04.000Z"
+          "size": 37187,
+          "sizeFormatted": "36.32 KB",
+          "timestamp": 1791802795,
+          "modifiedAt": "2026-10-12T10:59:55.000Z"
         },
         {
           "filename": "Hiyuki_Lucilla_Suisui_进入光明2绯0洛3穗_1.0.0.zip",
@@ -1465,6 +1535,38 @@
           "sizeFormatted": "58.22 KB",
           "timestamp": 1789953231,
           "modifiedAt": "2026-09-21T01:13:51.000Z"
+        }
+      ]
+    },
+    {
+      "team": "Qiuyuan, Sigrika, Verina",
+      "slug": "Qiuyuan_Sigrika_Verina",
+      "members": [
+        "Qiuyuan",
+        "Sigrika",
+        "Verina"
+      ],
+      "totalCodes": 1,
+      "jsonUrl": "https://okwwcharcode.ok-script.com/teams/Qiuyuan_Sigrika_Verina.json",
+      "codes": [
+        {
+          "filename": "Qiuyuan_Verina_Sigrika_尺素_1.0.0.zip",
+          "downloadUrl": "https://okwwcharcode.ok-script.com/codes/Qiuyuan_Verina_Sigrika_%E5%B0%BA%E7%B4%A0_1.0.0.zip",
+          "rawUrl": "https://raw.githubusercontent.com/ok-oldking/ok-ww-char-code/main/codes/Qiuyuan_Verina_Sigrika_%E5%B0%BA%E7%B4%A0_1.0.0.zip",
+          "name": "Qiuyuan_Verina_Sigrika",
+          "description": "1.全角色0链就可以，维里奈有2链更好，没有2链也是可以循环的\n2.仇远共鸣效率最低125以上，西格莉卡140以上，维里奈至少180以上\n3.角色执行一号位维里奈\n4.需要开启自动切换治疗位\n5.维里奈最好带精1以上奇幻变奏，不然可能轴中存在协奏能量打不满的情况\n6.【低容错队伍】这个队伍能打海墟（下半）和深塔，日常也可以使用，不过没有大招启动打的会慢一点，最适合打矩阵的宝箱怪，被肘多下的话可能会导致循环跟不上，而且西格莉卡的输出性能对空较差，所以矩阵需要人盯着，约等于半自动，理想情况这是打桩五日灵五R轴",
+          "author": "尺素",
+          "version": "1.0.0",
+          "team": "Qiuyuan, Sigrika, Verina",
+          "members": [
+            "Qiuyuan",
+            "Sigrika",
+            "Verina"
+          ],
+          "size": 13548,
+          "sizeFormatted": "13.23 KB",
+          "timestamp": 1791900568,
+          "modifiedAt": "2026-10-13T14:09:28.000Z"
         }
       ]
     }

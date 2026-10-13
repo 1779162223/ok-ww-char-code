@@ -548,11 +548,11 @@
 
     <div class="stats-bar">
       <div class="stat-card">
-        <div class="stat-value">38</div>
+        <div class="stat-value">40</div>
         <div class="stat-label">Total Teams</div>
       </div>
       <div class="stat-card">
-        <div class="stat-value">51</div>
+        <div class="stat-value">55</div>
         <div class="stat-label">Total Code Archives</div>
       </div>
       <div class="stat-card">
@@ -568,7 +568,7 @@
         </svg>
         <input type="text" id="searchInput" class="search-input" placeholder="Search team, character, author, or code name..." autocomplete="off">
       </div>
-      <div class="filter-info" id="filterCount">Showing all 51 codes in 38 teams</div>
+      <div class="filter-info" id="filterCount">Showing all 55 codes in 40 teams</div>
     </div>
 
     <div class="teams-container" id="teamsContainer">
@@ -631,29 +631,25 @@
                 </div>
               </article>
             
-              <article class="code-card" data-search="速刷4c baizhi, phrolova, verina 奉眠 ━━━━━━━━━━━━━━━━━━
-鳴潮 ok-ww 自動刷聲駭｜專刷 4c
+              <article class="code-card" data-search="速刷4c baizhi, phrolova, verina 奉眠 速刷 4c
 ━━━━━━━━━━━━━━━━━━
-
 【隊伍配置】（入門／進階相同）
+前提：弗洛洛需能秒殺 boss
 出場順序：維里奈起手
 開始前：弗洛洛能量需刷滿（確保能施放強化重擊）
-
 ▸ 弗洛洛
 　共鳴鏈：2 鏈
-　武器：專武 1 精
+　武器：精1專武
 ▸ 維里奈
 　共鳴鏈：2 鏈
 　武器：精5奇幻（精1～4請自行測試）
 　套裝：隱世回光
-　主聲駭：無歸的謬誤（傷害足夠也可用烏龜）
+　主聲駭：烏龜（較穩定）；傷害不足時改用無歸的謬誤
 ▸ 白芷（隨意，不死即可）
-　動作：只放聲駭技能
+　動作：預設只放聲駭技能，如需施放其他技能需自行修改程式碼
 　套裝：隱世回光
 　主聲駭：烏龜（掛 buff 用）
-
 💡 只帶弗、維兩人也能開刷，白芷是否需要請自行判斷
-
 【作者弗洛洛面板參考】
 ▸ 暴擊率：99%
 ▸ 暴擊傷害：277%
@@ -661,35 +657,26 @@
 ▸ 共鳴技能傷害加成：25.5%
 ▸ 湮滅傷害加成：102%
 ▸ 聲駭技能傷害加成：55%
-
 ⚠ 以上僅供參考，請自行測試你的角色能否穩定運行
-
 ━━━━━━━━━━━━━━━━━━
 🔰 入門｜直接使用預設掛機
 ━━━━━━━━━━━━━━━━━━
-
 【基本設定】
 ▸ 戰鬥前後切治療：開啟
 ▸ 使用共鳴解放：關閉
-
 【效率】
 ▸ 其他週本：約 115 個／小時
 ▸ 達妮婭週本：約 110 個／小時
 　（一次給兩個，刷來合成用）
-
 ━━━━━━━━━━━━━━━━━━
 ⚙️ 進階｜修改腳本提升效率
 ━━━━━━━━━━━━━━━━━━
-
 ⚠ 需要一定的動手能力，可詢問 ai 協助修改程式碼
-
 【修改檔案】
 ① farmechotask.py（刷聲駭任務，主要修改）
 ② basewwtask.py（搜尋聲駭邏輯參考）
-
 路徑：
 c:\users\<使用者名稱>\appdata\local\ok-ww\data\apps\ok-ww\working\src\task\
-
 【修改項目】
 1. 新增 boss 選項
 2. 開場閃避
@@ -699,41 +686,37 @@ c:\users\<使用者名稱>\appdata\local\ok-ww\data\apps\ok-ww\working\src\task\
 　→ 每輪省約 5 秒
 5. 搜尋聲駭改為直走
 　→ 沿用 basewwtask.py 原邏輯，改成直走，減少後退、前進浪費的時間
-
 【效率】
 ▸ 達妮婭週本：約 137 個／小時
 　撿取成功率 99%｜實測穩定運行 24 小時
 ▸ 其他週本：待測試
-
-━━━━━━━━━━━━━━━━━━ 速刷4c_奉眠_1.0.0.zip baizhi phrolova verina">
+━━━━━━━━━━━━━━━━━━
+1.0.0 初版
+1.0.1 優化維里奈穩定性+白芷技能是否施放(改代碼) 速刷4c_奉眠_1.0.1.zip baizhi phrolova verina">
                 <div class="code-card-main">
                   <div class="code-title-row">
                     <h3 class="code-name">速刷4C</h3>
-                    <span class="version-tag">v1.0.0</span>
+                    <span class="version-tag">v1.0.1</span>
                   </div>
-                  <p class="code-desc">━━━━━━━━━━━━━━━━━━
-鳴潮 ok-ww 自動刷聲駭｜專刷 4C
+                  <p class="code-desc">速刷 4C
 ━━━━━━━━━━━━━━━━━━
-
 【隊伍配置】（入門／進階相同）
+前提：弗洛洛需能秒殺 Boss
 出場順序：維里奈起手
 開始前：弗洛洛能量需刷滿（確保能施放強化重擊）
-
 ▸ 弗洛洛
 　共鳴鏈：2 鏈
-　武器：專武 1 精
+　武器：精1專武
 ▸ 維里奈
 　共鳴鏈：2 鏈
 　武器：精5奇幻（精1～4請自行測試）
 　套裝：隱世回光
-　主聲駭：無歸的謬誤（傷害足夠也可用烏龜）
+　主聲駭：烏龜（較穩定）；傷害不足時改用無歸的謬誤
 ▸ 白芷（隨意，不死即可）
-　動作：只放聲駭技能
+　動作：預設只放聲駭技能，如需施放其他技能需自行修改程式碼
 　套裝：隱世回光
 　主聲駭：烏龜（掛 buff 用）
-
 💡 只帶弗、維兩人也能開刷，白芷是否需要請自行判斷
-
 【作者弗洛洛面板參考】
 ▸ 暴擊率：99%
 ▸ 暴擊傷害：277%
@@ -741,35 +724,26 @@ c:\users\<使用者名稱>\appdata\local\ok-ww\data\apps\ok-ww\working\src\task\
 ▸ 共鳴技能傷害加成：25.5%
 ▸ 湮滅傷害加成：102%
 ▸ 聲駭技能傷害加成：55%
-
 ⚠ 以上僅供參考，請自行測試你的角色能否穩定運行
-
 ━━━━━━━━━━━━━━━━━━
 🔰 入門｜直接使用預設掛機
 ━━━━━━━━━━━━━━━━━━
-
 【基本設定】
 ▸ 戰鬥前後切治療：開啟
 ▸ 使用共鳴解放：關閉
-
 【效率】
 ▸ 其他週本：約 115 個／小時
 ▸ 達妮婭週本：約 110 個／小時
 　（一次給兩個，刷來合成用）
-
 ━━━━━━━━━━━━━━━━━━
 ⚙️ 進階｜修改腳本提升效率
 ━━━━━━━━━━━━━━━━━━
-
 ⚠ 需要一定的動手能力，可詢問 AI 協助修改程式碼
-
 【修改檔案】
 ① FarmEchoTask.py（刷聲駭任務，主要修改）
 ② BaseWWTask.py（搜尋聲駭邏輯參考）
-
 路徑：
 C:\Users\<使用者名稱>\AppData\Local\ok-ww\data\apps\ok-ww\working\src\task\
-
 【修改項目】
 1. 新增 Boss 選項
 2. 開場閃避
@@ -779,27 +753,27 @@ C:\Users\<使用者名稱>\AppData\Local\ok-ww\data\apps\ok-ww\working\src\task\
 　→ 每輪省約 5 秒
 5. 搜尋聲駭改為直走
 　→ 沿用 BaseWWTask.py 原邏輯，改成直走，減少後退、前進浪費的時間
-
 【效率】
 ▸ 達妮婭週本：約 137 個／小時
 　撿取成功率 99%｜實測穩定運行 24 小時
 ▸ 其他週本：待測試
-
-━━━━━━━━━━━━━━━━━━</p>
+━━━━━━━━━━━━━━━━━━
+1.0.0 初版
+1.0.1 優化維里奈穩定性+白芷技能是否施放(改代碼)</p>
                   <div class="code-meta">
                     <span class="meta-item"><strong>Author:</strong> 奉眠</span>
-                    <span class="meta-item"><strong>Size:</strong> 6.09 KB</span>
-                    <span class="meta-item"><strong>File:</strong> 速刷4C_奉眠_1.0.0.zip</span>
+                    <span class="meta-item"><strong>Size:</strong> 6.68 KB</span>
+                    <span class="meta-item"><strong>File:</strong> 速刷4C_奉眠_1.0.1.zip</span>
                   </div>
                 </div>
                 <div class="code-actions">
-                  <a href="https://okwwcharcode.ok-script.com/codes/%E9%80%9F%E5%88%B74C_%E5%A5%89%E7%9C%A0_1.0.0.zip" download="速刷4C_奉眠_1.0.0.zip" class="btn-download" title="Download Zip File">
+                  <a href="https://okwwcharcode.ok-script.com/codes/%E9%80%9F%E5%88%B74C_%E5%A5%89%E7%9C%A0_1.0.1.zip" download="速刷4C_奉眠_1.0.1.zip" class="btn-download" title="Download Zip File">
                     <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
                     </svg>
                     Download ZIP
                   </a>
-                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/%E9%80%9F%E5%88%B74C_%E5%A5%89%E7%9C%A0_1.0.0.zip')" title="Copy direct download URL">
+                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/%E9%80%9F%E5%88%B74C_%E5%A5%89%E7%9C%A0_1.0.1.zip')" title="Copy direct download URL">
                     <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
                     </svg>
@@ -1123,52 +1097,34 @@ Tips：如果发现启动轴最后爱弥斯变奏入场强化E没有亮起就重
                 </div>
               </article>
             
-              <article class="code-card" data-search="aemeath_lynae_mornye aemeath, lynae, mornye 楽山 爱琳莫5r2椰果轴
-此轴已经实机跑通，可以复现，但是实战中boss不同，转火次数不同，复现成功率较低，切本轴没有保底机制，如果被肘次数过多，可能会导致彻底失败，使用时请注意 aemeath_lynae_mornye_楽山_1.0.0.zip aemeath lynae mornye">
-                <div class="code-card-main">
-                  <div class="code-title-row">
-                    <h3 class="code-name">Aemeath_Lynae_Mornye</h3>
-                    <span class="version-tag">v1.0.0</span>
-                  </div>
-                  <p class="code-desc">爱琳莫5R2椰果轴
-此轴已经实机跑通，可以复现，但是实战中BOSS不同，转火次数不同，复现成功率较低，切本轴没有保底机制，如果被肘次数过多，可能会导致彻底失败，使用时请注意</p>
-                  <div class="code-meta">
-                    <span class="meta-item"><strong>Author:</strong> 楽山</span>
-                    <span class="meta-item"><strong>Size:</strong> 87.9 KB</span>
-                    <span class="meta-item"><strong>File:</strong> Aemeath_Lynae_Mornye_楽山_1.0.0.zip</span>
-                  </div>
-                </div>
-                <div class="code-actions">
-                  <a href="https://okwwcharcode.ok-script.com/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_1.0.0.zip" download="Aemeath_Lynae_Mornye_楽山_1.0.0.zip" class="btn-download" title="Download Zip File">
-                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
-                    </svg>
-                    Download ZIP
-                  </a>
-                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_1.0.0.zip')" title="Copy direct download URL">
-                    <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
-                    </svg>
-                  </button>
-                </div>
-              </article>
-            
-              <article class="code-card" data-search="aemeath_lynae_mornye aemeath, lynae, mornye 楽山 爱琳莫标准轴
-位置：一号位爱弥斯 二号位琳奈 三号位莫宁
-练度达到基本推荐练度即可
-此代码在之前群友代码的基础上，增加了对于琳奈协奏值的保底，确保在满协奏的情况下变奏爱弥斯。 aemeath_lynae_mornye_楽山_1.1.0.zip aemeath lynae mornye">
+              <article class="code-card" data-search="aemeath_lynae_mornye aemeath, lynae, mornye 楽山 爱琳莫5r2椰果轴 （0链爱适用）
+样本：61爱00琳10莫（5阶异响）
+共效：爱弥斯128 琳奈142 莫宁290
+位置：一号位莫宁 二号位琳奈 三号位爱弥斯
+
+此轴已经实机跑通，可以复现，但是实战中boss不同，转火次数不同，复现成功率较低，切本轴没有保底机制，如果被肘次数过多，可能会导致彻底失败，使用时请注意
+
+【优化】10/12
+1. 中途重来更方便：被打断、击飞或者转火把轴打乱了，不用重进副本，关一次自动战斗再打开，就会从启动轴第一步重新打。开关时如果琳奈在场，会直接切给莫宁起手，不会先把琳奈的 e 和 r 用掉。
+2. 循环轴琳奈重击接大招更稳：琳奈蓄力重击有两段伤害。旧版看到第一段后固定等 0.45 秒再开 r，两段挨得近的时候，r 会拖到空翻收招之后才出。现在等第二段伤害一打出来就马上开 r，大约快 0.2~0.5 秒，也不会把第二段打断。 aemeath_lynae_mornye_楽山_1.1.0.zip aemeath lynae mornye">
                 <div class="code-card-main">
                   <div class="code-title-row">
                     <h3 class="code-name">Aemeath_Lynae_Mornye</h3>
                     <span class="version-tag">v1.1.0</span>
                   </div>
-                  <p class="code-desc">爱琳莫标准轴
-位置：一号位爱弥斯 二号位琳奈 三号位莫宁
-练度达到基本推荐练度即可
-此代码在之前群友代码的基础上，增加了对于琳奈协奏值的保底，确保在满协奏的情况下变奏爱弥斯。</p>
+                  <p class="code-desc">爱琳莫5R2椰果轴 （0链爱适用）
+样本：61爱00琳10莫（5阶异响）
+共效：爱弥斯128 琳奈142 莫宁290
+位置：一号位莫宁 二号位琳奈 三号位爱弥斯
+
+此轴已经实机跑通，可以复现，但是实战中BOSS不同，转火次数不同，复现成功率较低，切本轴没有保底机制，如果被肘次数过多，可能会导致彻底失败，使用时请注意
+
+【优化】10/12
+1. 中途重来更方便：被打断、击飞或者转火把轴打乱了，不用重进副本，关一次自动战斗再打开，就会从启动轴第一步重新打。开关时如果琳奈在场，会直接切给莫宁起手，不会先把琳奈的 E 和 R 用掉。
+2. 循环轴琳奈重击接大招更稳：琳奈蓄力重击有两段伤害。旧版看到第一段后固定等 0.45 秒再开 R，两段挨得近的时候，R 会拖到空翻收招之后才出。现在等第二段伤害一打出来就马上开 R，大约快 0.2~0.5 秒，也不会把第二段打断。</p>
                   <div class="code-meta">
                     <span class="meta-item"><strong>Author:</strong> 楽山</span>
-                    <span class="meta-item"><strong>Size:</strong> 5.71 KB</span>
+                    <span class="meta-item"><strong>Size:</strong> 90.61 KB</span>
                     <span class="meta-item"><strong>File:</strong> Aemeath_Lynae_Mornye_楽山_1.1.0.zip</span>
                   </div>
                 </div>
@@ -1180,6 +1136,42 @@ Tips：如果发现启动轴最后爱弥斯变奏入场强化E没有亮起就重
                     Download ZIP
                   </a>
                   <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_1.1.0.zip')" title="Copy direct download URL">
+                    <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+                    </svg>
+                  </button>
+                </div>
+              </article>
+            
+              <article class="code-card" data-search="aemeath_lynae_mornye aemeath, lynae, mornye 楽山 爱琳莫5r2（1链及以上爱弥斯限定）
+样本：61爱 00琳 11莫
+共效：爱弥斯128 琳奈142 莫宁290（共效仅为参考）
+位置：一号位莫宁 二号位琳奈 三号位 爱弥斯
+实机已通过，复现难度高，转火次数多复现难度继续加大，最好分辨率在2k/1k下，保证游戏ping值稳定且不卡，游戏内插帧开关关闭可以稳定120帧及以上（可以开启n卡插帧），优化了重启流程，现在流程错误可以马上关闭自动战斗开关再开启，重置启动流程。建议宝箱开，或者大体型boss开，避免琳奈协奏能量吃不满。 aemeath_lynae_mornye_楽山_2.0.0.zip aemeath lynae mornye">
+                <div class="code-card-main">
+                  <div class="code-title-row">
+                    <h3 class="code-name">Aemeath_Lynae_Mornye</h3>
+                    <span class="version-tag">v2.0.0</span>
+                  </div>
+                  <p class="code-desc">爱琳莫5R2（1链及以上爱弥斯限定）
+样本：61爱 00琳 11莫
+共效：爱弥斯128 琳奈142 莫宁290（共效仅为参考）
+位置：一号位莫宁 二号位琳奈 三号位 爱弥斯
+实机已通过，复现难度高，转火次数多复现难度继续加大，最好分辨率在2K/1K下，保证游戏ping值稳定且不卡，游戏内插帧开关关闭可以稳定120帧及以上（可以开启N卡插帧），优化了重启流程，现在流程错误可以马上关闭自动战斗开关再开启，重置启动流程。建议宝箱开，或者大体型boss开，避免琳奈协奏能量吃不满。</p>
+                  <div class="code-meta">
+                    <span class="meta-item"><strong>Author:</strong> 楽山</span>
+                    <span class="meta-item"><strong>Size:</strong> 114.94 KB</span>
+                    <span class="meta-item"><strong>File:</strong> Aemeath_Lynae_Mornye_楽山_2.0.0.zip</span>
+                  </div>
+                </div>
+                <div class="code-actions">
+                  <a href="https://okwwcharcode.ok-script.com/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_2.0.0.zip" download="Aemeath_Lynae_Mornye_楽山_2.0.0.zip" class="btn-download" title="Download Zip File">
+                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                    </svg>
+                    Download ZIP
+                  </a>
+                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Aemeath_Lynae_Mornye_%E6%A5%BD%E5%B1%B1_2.0.0.zip')" title="Copy direct download URL">
                     <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
                     </svg>
@@ -1386,36 +1378,52 @@ Tips：1 本轴船长第一个锚下去需要手动接F处决 如果没有处决
           <div class="codes-grid">
             
               <article class="code-card" data-search="buling_hsin_rover buling, hsin, rover coyomii 【使用说明】
-1. 最低共鸣链适配：01心、21雷主（带千古，声骸带轻云或镜影）、60buling；低于该配置暂未测试。
-2. 测试共鸣效率：心120%+、雷主130%+、buling180%+；以上为当前测试参考值，不代表绝对最低门槛。
+1. 最低共鸣链适配：01心、21雷主（带千古，声骸带轻云或镜影）、60卜灵（奇幻最好）；低于该配置暂未测试。
+2. 测试共鸣效率：心120%+、雷主130%+、卜灵180%+；以上为当前测试参考值，不代表绝对最低门槛。
 3. 一号位角色：心。
-4. 自动切换治疗位：不需要开启。
-5. 轴的特色：本代码参考b站长风ei的心雷buling25秒轮椅轴。 buling_hsin_rover_coyomii_1.0.0.zip buling hsin rover">
+4. 自动切换治疗位：不需要开启。本代码不把卜灵算作奶妈。
+5. 轴的特色：本代码参考b站长风ei的心雷卜灵25秒轮椅轴。
+
+【v1.0.1】优化内容
+1. 缩短卜灵二段重击0.2s。
+2. 缩短雷主变奏后e的时间间隔0.5s。
+3. 加入目标丢失保护：连续两次检测不到目标会尝试重锁，失败就停止当前轴，避免敌人死亡后继续攻击。
+4. 新增心r2未满情况下平a补偿机制。
+5. 本轴使用优先级（均已测试）:【海墟下半】3280>【矩阵】r1开8000=【深塔】>【海墟上半】2460=【日常】
+6. 适用等级：【日常】。已测试无需人工干预完成刷聚落、刷4c、大世界战斗，并适配被肘、协奏未满、大招未满等异常情况。 buling_hsin_rover_coyomii_1.0.1.zip buling hsin rover">
                 <div class="code-card-main">
                   <div class="code-title-row">
                     <h3 class="code-name">Buling_Hsin_Rover</h3>
-                    <span class="version-tag">v1.0.0</span>
+                    <span class="version-tag">v1.0.1</span>
                   </div>
                   <p class="code-desc">【使用说明】
-1. 最低共鸣链适配：01心、21雷主（带千古，声骸带轻云或镜影）、60Buling；低于该配置暂未测试。
-2. 测试共鸣效率：心120%+、雷主130%+、Buling180%+；以上为当前测试参考值，不代表绝对最低门槛。
+1. 最低共鸣链适配：01心、21雷主（带千古，声骸带轻云或镜影）、60卜灵（奇幻最好）；低于该配置暂未测试。
+2. 测试共鸣效率：心120%+、雷主130%+、卜灵180%+；以上为当前测试参考值，不代表绝对最低门槛。
 3. 一号位角色：心。
-4. 自动切换治疗位：不需要开启。
-5. 轴的特色：本代码参考B站长风ei的心雷Buling25秒轮椅轴。</p>
+4. 自动切换治疗位：不需要开启。本代码不把卜灵算作奶妈。
+5. 轴的特色：本代码参考B站长风ei的心雷卜灵25秒轮椅轴。
+
+【V1.0.1】优化内容
+1. 缩短卜灵二段重击0.2s。
+2. 缩短雷主变奏后E的时间间隔0.5s。
+3. 加入目标丢失保护：连续两次检测不到目标会尝试重锁，失败就停止当前轴，避免敌人死亡后继续攻击。
+4. 新增心R2未满情况下平A补偿机制。
+5. 本轴使用优先级（均已测试）:【海墟下半】3280>【矩阵】R1开8000=【深塔】>【海墟上半】2460=【日常】
+6. 适用等级：【日常】。已测试无需人工干预完成刷聚落、刷4C、大世界战斗，并适配被肘、协奏未满、大招未满等异常情况。</p>
                   <div class="code-meta">
                     <span class="meta-item"><strong>Author:</strong> coyomii</span>
-                    <span class="meta-item"><strong>Size:</strong> 41.89 KB</span>
-                    <span class="meta-item"><strong>File:</strong> Buling_Hsin_Rover_coyomii_1.0.0.zip</span>
+                    <span class="meta-item"><strong>Size:</strong> 37.62 KB</span>
+                    <span class="meta-item"><strong>File:</strong> Buling_Hsin_Rover_coyomii_1.0.1.zip</span>
                   </div>
                 </div>
                 <div class="code-actions">
-                  <a href="https://okwwcharcode.ok-script.com/codes/Buling_Hsin_Rover_coyomii_1.0.0.zip" download="Buling_Hsin_Rover_coyomii_1.0.0.zip" class="btn-download" title="Download Zip File">
+                  <a href="https://okwwcharcode.ok-script.com/codes/Buling_Hsin_Rover_coyomii_1.0.1.zip" download="Buling_Hsin_Rover_coyomii_1.0.1.zip" class="btn-download" title="Download Zip File">
                     <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
                     </svg>
                     Download ZIP
                   </a>
-                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Buling_Hsin_Rover_coyomii_1.0.0.zip')" title="Copy direct download URL">
+                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Buling_Hsin_Rover_coyomii_1.0.1.zip')" title="Copy direct download URL">
                     <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
                     </svg>
@@ -1814,35 +1822,47 @@ Tips：露西和丽贝卡大招需要视野里有怪物，如果怪物飞天需�
 
           <div class="codes-grid">
             
-              <article class="code-card" data-search="cantarella_buling_phrolova buling, cantarella, phrolova 楽山 弗坎卜轮椅轴 
-样本：21弗01坎60卜（精2奇幻） 
-共效：弗100坎150卜240（仅供参考）
+              <article class="code-card" data-search="cantarella_buling_phrolova buling, cantarella, phrolova 楽山 弗坎卜轮椅轴
+样本：21弗01坎60卜灵（核熔星盘/或其他带协奏的武器）
+共效：弗100坎150卜180
 位置：一号位弗洛洛 二号位坎 三号位卜灵
-实机已跑通 复现难度中 主要问题在于打不出最后一个一日谱 只能4谱 对于面对一些粪怪 可以在操控弗洛洛或者坎的时候 手动闪避一下 不影响流程  注意：由于本次对于弗和坎的强化技能一些图像颜色检测是基于本人环境截图 有可能会在一些人的显示环境里识别不够稳定 cantarella_buling_phrolova_楽山_1.0.0.zip buling cantarella phrolova">
+v1.1.0 优化：
+· 坎特蕾拉放完 q 协奏没满，先补满再变奏弗洛洛
+· 启动轴弗洛洛开重击改为白+黄都亮，不再被亮地面误判
+· 卜灵两段重击改为读卦象栏：卦象被吃掉就松手，缺阴/阳自动补卦象；读不到时退回外圈颜色判断
+· 卜灵 a4 的震一出现就停 a；补协奏差一点时只点 a，不再多按重击
+· 开关一次自动战斗即从启动轴重新开始
+· 16:9，2k / 1080p 已验，默认键位 cantarella_buling_phrolova_楽山_1.1.0.zip buling cantarella phrolova">
                 <div class="code-card-main">
                   <div class="code-title-row">
                     <h3 class="code-name">Cantarella_Buling_Phrolova</h3>
-                    <span class="version-tag">v1.0.0</span>
+                    <span class="version-tag">v1.1.0</span>
                   </div>
-                  <p class="code-desc">弗坎卜轮椅轴 
-样本：21弗01坎60卜（精2奇幻） 
-共效：弗100坎150卜240（仅供参考）
+                  <p class="code-desc">弗坎卜轮椅轴
+样本：21弗01坎60卜灵（核熔星盘/或其他带协奏的武器）
+共效：弗100坎150卜180
 位置：一号位弗洛洛 二号位坎 三号位卜灵
-实机已跑通 复现难度中 主要问题在于打不出最后一个一日谱 只能4谱 对于面对一些粪怪 可以在操控弗洛洛或者坎的时候 手动闪避一下 不影响流程  注意：由于本次对于弗和坎的强化技能一些图像颜色检测是基于本人环境截图 有可能会在一些人的显示环境里识别不够稳定</p>
+v1.1.0 优化：
+· 坎特蕾拉放完 Q 协奏没满，先补满再变奏弗洛洛
+· 启动轴弗洛洛开重击改为白+黄都亮，不再被亮地面误判
+· 卜灵两段重击改为读卦象栏：卦象被吃掉就松手，缺阴/阳自动补卦象；读不到时退回外圈颜色判断
+· 卜灵 A4 的震一出现就停 A；补协奏差一点时只点 A，不再多按重击
+· 开关一次自动战斗即从启动轴重新开始
+· 16:9，2K / 1080p 已验，默认键位</p>
                   <div class="code-meta">
                     <span class="meta-item"><strong>Author:</strong> 楽山</span>
-                    <span class="meta-item"><strong>Size:</strong> 94.11 KB</span>
-                    <span class="meta-item"><strong>File:</strong> Cantarella_Buling_Phrolova_楽山_1.0.0.zip</span>
+                    <span class="meta-item"><strong>Size:</strong> 112.29 KB</span>
+                    <span class="meta-item"><strong>File:</strong> Cantarella_Buling_Phrolova_楽山_1.1.0.zip</span>
                   </div>
                 </div>
                 <div class="code-actions">
-                  <a href="https://okwwcharcode.ok-script.com/codes/Cantarella_Buling_Phrolova_%E6%A5%BD%E5%B1%B1_1.0.0.zip" download="Cantarella_Buling_Phrolova_楽山_1.0.0.zip" class="btn-download" title="Download Zip File">
+                  <a href="https://okwwcharcode.ok-script.com/codes/Cantarella_Buling_Phrolova_%E6%A5%BD%E5%B1%B1_1.1.0.zip" download="Cantarella_Buling_Phrolova_楽山_1.1.0.zip" class="btn-download" title="Download Zip File">
                     <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
                     </svg>
                     Download ZIP
                   </a>
-                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Cantarella_Buling_Phrolova_%E6%A5%BD%E5%B1%B1_1.0.0.zip')" title="Copy direct download URL">
+                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Cantarella_Buling_Phrolova_%E6%A5%BD%E5%B1%B1_1.1.0.zip')" title="Copy direct download URL">
                     <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
                     </svg>
@@ -1873,27 +1893,27 @@ Tips：露西和丽贝卡大招需要视野里有怪物，如果怪物飞天需�
 
           <div class="codes-grid">
             
-              <article class="code-card" data-search="cantarella_galbrena_phrolova cantarella, galbrena, phrolova eeeeeeeedison 坎特蕾拉一号位开，最低共鸣效率未测，实测共鸣效率：坎特蕾拉133，嘉贝莉娜133。理论上嘉贝莉娜共鸣效率越高越好。4金应该能打过宝箱怪。 cantarella_galbrena_phrolova_eeeeeeeedison_1.0.0.zip cantarella galbrena phrolova">
+              <article class="code-card" data-search="弗坎嘉 30秒轮椅轴 cantarella, galbrena, phrolova eeeeeeeedison 【中容错战斗】；坎特蕾拉一号位开，开启关闭自动切换治疗位无影响；最低共鸣效率未测，实测共鸣效率：坎特蕾拉133，嘉贝莉娜133。理论上嘉贝莉娜共鸣效率越高越好。4金应该能打过宝箱怪。 cantarella_galbrena_phrolova_eeeeeeeedison_1.0.1.zip cantarella galbrena phrolova">
                 <div class="code-card-main">
                   <div class="code-title-row">
-                    <h3 class="code-name">Cantarella_Galbrena_Phrolova</h3>
-                    <span class="version-tag">v1.0.0</span>
+                    <h3 class="code-name">弗坎嘉 30秒轮椅轴</h3>
+                    <span class="version-tag">v1.0.1</span>
                   </div>
-                  <p class="code-desc">坎特蕾拉一号位开，最低共鸣效率未测，实测共鸣效率：坎特蕾拉133，嘉贝莉娜133。理论上嘉贝莉娜共鸣效率越高越好。4金应该能打过宝箱怪。</p>
+                  <p class="code-desc">【中容错战斗】；坎特蕾拉一号位开，开启关闭自动切换治疗位无影响；最低共鸣效率未测，实测共鸣效率：坎特蕾拉133，嘉贝莉娜133。理论上嘉贝莉娜共鸣效率越高越好。4金应该能打过宝箱怪。</p>
                   <div class="code-meta">
                     <span class="meta-item"><strong>Author:</strong> EEEEEEEEdison</span>
-                    <span class="meta-item"><strong>Size:</strong> 8.08 KB</span>
-                    <span class="meta-item"><strong>File:</strong> Cantarella_Galbrena_Phrolova_EEEEEEEEdison_1.0.0.zip</span>
+                    <span class="meta-item"><strong>Size:</strong> 18.47 KB</span>
+                    <span class="meta-item"><strong>File:</strong> Cantarella_Galbrena_Phrolova_EEEEEEEEdison_1.0.1.zip</span>
                   </div>
                 </div>
                 <div class="code-actions">
-                  <a href="https://okwwcharcode.ok-script.com/codes/Cantarella_Galbrena_Phrolova_EEEEEEEEdison_1.0.0.zip" download="Cantarella_Galbrena_Phrolova_EEEEEEEEdison_1.0.0.zip" class="btn-download" title="Download Zip File">
+                  <a href="https://okwwcharcode.ok-script.com/codes/Cantarella_Galbrena_Phrolova_EEEEEEEEdison_1.0.1.zip" download="Cantarella_Galbrena_Phrolova_EEEEEEEEdison_1.0.1.zip" class="btn-download" title="Download Zip File">
                     <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
                     </svg>
                     Download ZIP
                   </a>
-                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Cantarella_Galbrena_Phrolova_EEEEEEEEdison_1.0.0.zip')" title="Copy direct download URL">
+                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Cantarella_Galbrena_Phrolova_EEEEEEEEdison_1.0.1.zip')" title="Copy direct download URL">
                     <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
                     </svg>
@@ -1985,33 +2005,49 @@ Tips：露西和丽贝卡大招需要视野里有怪物，如果怪物飞天需�
 样本：21弗01坎10莫（精5异响）
 共效：弗100坎150莫260（仅供参考）
 位置：一号位莫宁 二号位坎 三号位弗洛洛
-实机已跑通 复现难度中 主要问题在于可能打不出最后一个一日谱 只能4谱 对于面对一些粪怪 可以在操控弗洛洛或者坎的时候 手动闪避一下 不影响流程 但是一旦手动闪避接入 一般情况下是打不出5谱的 
-注意：由于本次对于弗和坎的强化技能一些图像颜色检测是基于本人环境截图 有可能会在一些人的显示环境里识别不够稳定 cantarella_mornye_phrolova_楽山_1.0.0.zip cantarella mornye phrolova">
+实机已跑通 复现难度中 主要问题在于可能打不出最后一个一日谱 只能4谱 对于面对一些粪怪 可以在操控弗洛洛或者坎的时候 手动闪避一下 不影响流程 但是一旦手动闪避接入 一般情况下是打不出5谱的
+注意：由于本次对于弗和坎的强化技能一些图像颜色检测是基于本人环境截图 有可能会在一些人的显示环境里识别不够稳定
+v1.1.1 优化：
+· 弗洛洛攒音符按「4a8赫」重做：第一轮 a3→闪避→强化a→普通e→强化a，之后每轮 a3→闪避→强化a
+· q 改为强化a 出手后再按，不再吞掉强化a
+· 音符满、鼠标指示一亮立刻重击（强化重击有 25 秒冷却，音符先满时多打一会儿属正常）
+· 循环轴第一轮按音符形状判断 a3 是否打中，不受红色特效干扰
+· 坎特蕾拉强化e 改按环的真实颜色识别，漏按时放 q 前补按（修复 v1.1.0 强化e 按不出）
+· 开关一次自动战斗即从启动轴重新开始
+· 16:9，2k / 1080p 已验，默认键位 cantarella_mornye_phrolova_楽山_1.1.1.zip cantarella mornye phrolova">
                 <div class="code-card-main">
                   <div class="code-title-row">
                     <h3 class="code-name">Cantarella_Mornye_Phrolova</h3>
-                    <span class="version-tag">v1.0.0</span>
+                    <span class="version-tag">v1.1.1</span>
                   </div>
                   <p class="code-desc">弗坎莫轮椅轴
 样本：21弗01坎10莫（精5异响）
 共效：弗100坎150莫260（仅供参考）
 位置：一号位莫宁 二号位坎 三号位弗洛洛
-实机已跑通 复现难度中 主要问题在于可能打不出最后一个一日谱 只能4谱 对于面对一些粪怪 可以在操控弗洛洛或者坎的时候 手动闪避一下 不影响流程 但是一旦手动闪避接入 一般情况下是打不出5谱的 
-注意：由于本次对于弗和坎的强化技能一些图像颜色检测是基于本人环境截图 有可能会在一些人的显示环境里识别不够稳定</p>
+实机已跑通 复现难度中 主要问题在于可能打不出最后一个一日谱 只能4谱 对于面对一些粪怪 可以在操控弗洛洛或者坎的时候 手动闪避一下 不影响流程 但是一旦手动闪避接入 一般情况下是打不出5谱的
+注意：由于本次对于弗和坎的强化技能一些图像颜色检测是基于本人环境截图 有可能会在一些人的显示环境里识别不够稳定
+v1.1.1 优化：
+· 弗洛洛攒音符按「4A8赫」重做：第一轮 A3→闪避→强化A→普通E→强化A，之后每轮 A3→闪避→强化A
+· Q 改为强化A 出手后再按，不再吞掉强化A
+· 音符满、鼠标指示一亮立刻重击（强化重击有 25 秒冷却，音符先满时多打一会儿属正常）
+· 循环轴第一轮按音符形状判断 A3 是否打中，不受红色特效干扰
+· 坎特蕾拉强化E 改按环的真实颜色识别，漏按时放 Q 前补按（修复 v1.1.0 强化E 按不出）
+· 开关一次自动战斗即从启动轴重新开始
+· 16:9，2K / 1080p 已验，默认键位</p>
                   <div class="code-meta">
                     <span class="meta-item"><strong>Author:</strong> 楽山</span>
-                    <span class="meta-item"><strong>Size:</strong> 86.82 KB</span>
-                    <span class="meta-item"><strong>File:</strong> Cantarella_Mornye_Phrolova_楽山_1.0.0.zip</span>
+                    <span class="meta-item"><strong>Size:</strong> 99.09 KB</span>
+                    <span class="meta-item"><strong>File:</strong> Cantarella_Mornye_Phrolova_楽山_1.1.1.zip</span>
                   </div>
                 </div>
                 <div class="code-actions">
-                  <a href="https://okwwcharcode.ok-script.com/codes/Cantarella_Mornye_Phrolova_%E6%A5%BD%E5%B1%B1_1.0.0.zip" download="Cantarella_Mornye_Phrolova_楽山_1.0.0.zip" class="btn-download" title="Download Zip File">
+                  <a href="https://okwwcharcode.ok-script.com/codes/Cantarella_Mornye_Phrolova_%E6%A5%BD%E5%B1%B1_1.1.1.zip" download="Cantarella_Mornye_Phrolova_楽山_1.1.1.zip" class="btn-download" title="Download Zip File">
                     <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
                     </svg>
                     Download ZIP
                   </a>
-                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Cantarella_Mornye_Phrolova_%E6%A5%BD%E5%B1%B1_1.0.0.zip')" title="Copy direct download URL">
+                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Cantarella_Mornye_Phrolova_%E6%A5%BD%E5%B1%B1_1.1.1.zip')" title="Copy direct download URL">
                     <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
                     </svg>
@@ -2100,6 +2136,94 @@ Tips：露西和丽贝卡大招需要视野里有怪物，如果怪物飞天需�
           </div>
 
           <div class="codes-grid">
+            
+              <article class="code-card" data-search="cartethyia_chisa_ciaccona cartethyia, chisa, ciaccona rain-z 卡夏千5r8下落轴
+样本：61卡00夏（2阶华彩）21千
+样本共效：卡提125 夏空171 千咲134
+位置：必须1号位卡提，2号位夏空，3号位千咲
+
+使用说明：
+1.必须卡提起手，可以直接重开，卡提和夏空声骸为大卡剑
+2.【低容错战斗】【终焉矩阵】适用，针对第5轮做了特化
+3.卡提位有一点容错，其他位置无容错。
+
+测试：已经过实战测试，矩阵第一轮第一个怪起手，经过4次转火到宝箱怪，可以打出5r2，复现难度不是特别高。深塔中塔1234用于测试，可以完成战斗 cartethyia_chisa_ciaccona_rain-z_1.0.0.zip cartethyia chisa ciaccona">
+                <div class="code-card-main">
+                  <div class="code-title-row">
+                    <h3 class="code-name">Cartethyia_Chisa_Ciaccona</h3>
+                    <span class="version-tag">v1.0.0</span>
+                  </div>
+                  <p class="code-desc">卡夏千5r8下落轴
+样本：61卡00夏（2阶华彩）21千
+样本共效：卡提125 夏空171 千咲134
+位置：必须1号位卡提，2号位夏空，3号位千咲
+
+使用说明：
+1.必须卡提起手，可以直接重开，卡提和夏空声骸为大卡剑
+2.【低容错战斗】【终焉矩阵】适用，针对第5轮做了特化
+3.卡提位有一点容错，其他位置无容错。
+
+测试：已经过实战测试，矩阵第一轮第一个怪起手，经过4次转火到宝箱怪，可以打出5r2，复现难度不是特别高。深塔中塔1234用于测试，可以完成战斗</p>
+                  <div class="code-meta">
+                    <span class="meta-item"><strong>Author:</strong> rain-z</span>
+                    <span class="meta-item"><strong>Size:</strong> 14.86 KB</span>
+                    <span class="meta-item"><strong>File:</strong> Cartethyia_Chisa_Ciaccona_rain-z_1.0.0.zip</span>
+                  </div>
+                </div>
+                <div class="code-actions">
+                  <a href="https://okwwcharcode.ok-script.com/codes/Cartethyia_Chisa_Ciaccona_rain-z_1.0.0.zip" download="Cartethyia_Chisa_Ciaccona_rain-z_1.0.0.zip" class="btn-download" title="Download Zip File">
+                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                    </svg>
+                    Download ZIP
+                  </a>
+                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Cartethyia_Chisa_Ciaccona_rain-z_1.0.0.zip')" title="Copy direct download URL">
+                    <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+                    </svg>
+                  </button>
+                </div>
+              </article>
+            
+              <article class="code-card" data-search="cartethyia_chisa_ciaccona cartethyia, chisa, ciaccona 宇哥哥 1.角色共鸣链本人21卡01夏01千，因为是双下落轴对2链以下的卡收益不大，辅助无要求。
+2.角色共鸣效率最低适配情况不清除，测试账号卡提109，夏空145，千咲144
+3.角色执行一号位卡提希娅
+4.是否开启自动切换治疗位：否
+5.其他必要备注：矩阵专用，只用来凹分。修改了原框架是否处于战斗状态的的逻辑判断，因为矩阵战斗中可能轴打到一半怪物死了，刷新又卡了3-4秒，所以实际不应退出战斗状态却被接管了，打出和轴不一样的操作。该轴增加了较多容错，未打出的操作会有补偿逻辑，切人会多次重试等。如果多次触发补偿操作可能无法完整打出4r2。
+6.其他不必要备注：【低容错战斗】【终焉矩阵】该轴是卡夏千终焉矩阵专用特化，其他场景未测试。
+7.版本号:1.0.0 cartethyia_chisa_ciaccona_宇哥哥_1.0.0.zip cartethyia chisa ciaccona">
+                <div class="code-card-main">
+                  <div class="code-title-row">
+                    <h3 class="code-name">Cartethyia_Chisa_Ciaccona</h3>
+                    <span class="version-tag">v1.0.0</span>
+                  </div>
+                  <p class="code-desc">1.角色共鸣链本人21卡01夏01千，因为是双下落轴对2链以下的卡收益不大，辅助无要求。
+2.角色共鸣效率最低适配情况不清除，测试账号卡提109，夏空145，千咲144
+3.角色执行一号位卡提希娅
+4.是否开启自动切换治疗位：否
+5.其他必要备注：矩阵专用，只用来凹分。修改了原框架是否处于战斗状态的的逻辑判断，因为矩阵战斗中可能轴打到一半怪物死了，刷新又卡了3-4秒，所以实际不应退出战斗状态却被接管了，打出和轴不一样的操作。该轴增加了较多容错，未打出的操作会有补偿逻辑，切人会多次重试等。如果多次触发补偿操作可能无法完整打出4R2。
+6.其他不必要备注：【低容错战斗】【终焉矩阵】该轴是卡夏千终焉矩阵专用特化，其他场景未测试。
+7.版本号:1.0.0</p>
+                  <div class="code-meta">
+                    <span class="meta-item"><strong>Author:</strong> 宇哥哥</span>
+                    <span class="meta-item"><strong>Size:</strong> 11.98 KB</span>
+                    <span class="meta-item"><strong>File:</strong> Cartethyia_Chisa_Ciaccona_宇哥哥_1.0.0.zip</span>
+                  </div>
+                </div>
+                <div class="code-actions">
+                  <a href="https://okwwcharcode.ok-script.com/codes/Cartethyia_Chisa_Ciaccona_%E5%AE%87%E5%93%A5%E5%93%A5_1.0.0.zip" download="Cartethyia_Chisa_Ciaccona_宇哥哥_1.0.0.zip" class="btn-download" title="Download Zip File">
+                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                    </svg>
+                    Download ZIP
+                  </a>
+                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Cartethyia_Chisa_Ciaccona_%E5%AE%87%E5%93%A5%E5%93%A5_1.0.0.zip')" title="Copy direct download URL">
+                    <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+                    </svg>
+                  </button>
+                </div>
+              </article>
             
               <article class="code-card" data-search="cartethyia_chisa_ciaccona cartethyia, chisa, ciaccona 楽山 卡夏千4r8下落轴
 样本：31卡提00夏空00千咲
@@ -2414,6 +2538,69 @@ Tips：F进入战斗后应该快速点击鼠标中键，加速锁定怪物 如�
           </div>
         </section>
       
+        <section class="team-group" data-team="chixia, phrolova, verina" data-members="chixia phrolova verina">
+          <div class="team-header">
+            <div class="team-title-wrap">
+              <h2 class="team-title">
+                Chixia, Phrolova, Verina
+              </h2>
+              <div class="member-chips">
+                <span class="chip-member">Chixia</span><span class="chip-member">Phrolova</span><span class="chip-member">Verina</span>
+              </div>
+            </div>
+            <div class="team-header-actions">
+              <a href="https://okwwcharcode.ok-script.com/teams/Chixia_Phrolova_Verina.json" class="btn-team-json" target="_blank" title="Team JSON API">
+                <svg width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
+                Chixia_Phrolova_Verina.json
+              </a>
+            </div>
+          </div>
+
+          <div class="codes-grid">
+            
+              <article class="code-card" data-search="chixia_phrolova_verina chixia, phrolova, verina 琉璃 弗维刷boss2.0（）内置 不同连招模板！！！可在角色代码处改弗和维的，适配0-6弗和0-6维，不过0弗的话，除非你没其他高链角色和角色池少的话，不让应该是没其他配队快的，不过也可以试试
+1.全适配共鸣链
+2.无共鸣效率需求
+3.谁都可以1号位进场
+4.开启自动切换治疗位，关闭开启大招
+5.维4c带无归最好
+6.刷boss队 chixia_phrolova_verina_琉璃_1.0.0.zip chixia phrolova verina">
+                <div class="code-card-main">
+                  <div class="code-title-row">
+                    <h3 class="code-name">Chixia_Phrolova_Verina</h3>
+                    <span class="version-tag">v1.0.0</span>
+                  </div>
+                  <p class="code-desc">弗维刷boss2.0（）内置 不同连招模板！！！可在角色代码处改弗和维的，适配0-6弗和0-6维，不过0弗的话，除非你没其他高链角色和角色池少的话，不让应该是没其他配队快的，不过也可以试试
+1.全适配共鸣链
+2.无共鸣效率需求
+3.谁都可以1号位进场
+4.开启自动切换治疗位，关闭开启大招
+5.维4c带无归最好
+6.刷boss队</p>
+                  <div class="code-meta">
+                    <span class="meta-item"><strong>Author:</strong> 琉璃</span>
+                    <span class="meta-item"><strong>Size:</strong> 3.96 KB</span>
+                    <span class="meta-item"><strong>File:</strong> Chixia_Phrolova_Verina_琉璃_1.0.0.zip</span>
+                  </div>
+                </div>
+                <div class="code-actions">
+                  <a href="https://okwwcharcode.ok-script.com/codes/Chixia_Phrolova_Verina_%E7%90%89%E7%92%83_1.0.0.zip" download="Chixia_Phrolova_Verina_琉璃_1.0.0.zip" class="btn-download" title="Download Zip File">
+                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                    </svg>
+                    Download ZIP
+                  </a>
+                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Chixia_Phrolova_Verina_%E7%90%89%E7%92%83_1.0.0.zip')" title="Copy direct download URL">
+                    <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+                    </svg>
+                  </button>
+                </div>
+              </article>
+            
+          </div>
+        </section>
+      
         <section class="team-group" data-team="denia, mornye, qingxiao" data-members="denia mornye qingxiao">
           <div class="team-header">
             <div class="team-title-wrap">
@@ -2676,49 +2863,57 @@ Tips：F进入战斗后应该快速点击鼠标中键，加速锁定怪物 如�
                 </div>
               </article>
             
-              <article class="code-card" data-search="hiyuki_lucilla_suisui hiyuki, lucilla, suisui 楽山 绯洛穗启动3居循环4居轴 
-样本：61绯雪00洛00穗 
-共效：绯雪127洛瑟拉161穗穗270 
+              <article class="code-card" data-search="hiyuki_lucilla_suisui hiyuki, lucilla, suisui 楽山 绯洛穗启动3居循环4居轴
+样本：61绯雪00洛00穗
+共效：绯雪127洛瑟拉161穗穗270
 位置：一号位穗穗 二号位洛瑟拉 三号位绯雪
-提示：2链以下绯雪是否能有三居合未知，未实测
-绯洛穗 v1.1.0 优化内容
+实机已跑通。v1.1.0 优化：
 1. 绯雪启动轴缩短为 a3→处决(有提示时)/闪避→ee→三居合→重击→r2，开场容错更高
 2. 穗穗启动轴强化e被打断会补按，确认放出才往下走
 3. 穗穗循环轴：回路满了r没亮会继续打到亮；没攒满三格时改普攻；放r前协奏不够先补
 4. 绯雪r2打死怪后先等下一波再切穗穗，不再愣住
 5. 洛瑟拉长按e按录屏校准到完美焦距(0.95s)，对焦期间连点r，回路一满马上开r
-6. 洛瑟拉变奏入场更早按e；变身结束协奏满就切绯雪，不再多a一下 hiyuki_lucilla_suisui_楽山_1.1.0.zip hiyuki lucilla suisui">
+6. 洛瑟拉变奏入场更早按e；变身结束协奏满就切绯雪，不再多a一下
+v1.1.1 优化：
+1. 洛瑟拉对焦成功后等追光结算完(约0.9s)再开r，不再打断追光少拿协奏，保证绯雪能变奏入场
+2. 洛瑟拉判断r是否放出更严格，被特效挡住画面不会误判成已放出而停按r
+3. 洛瑟拉回场时如果还在变身(追忆)状态，会自动长按攻击把照片打完退出，再正常交棒
+4. 修复r刚好在超时前放出时不打变身段、带着变身状态下场的问题 hiyuki_lucilla_suisui_楽山_1.1.1.zip hiyuki lucilla suisui">
                 <div class="code-card-main">
                   <div class="code-title-row">
                     <h3 class="code-name">Hiyuki_Lucilla_Suisui</h3>
-                    <span class="version-tag">v1.1.0</span>
+                    <span class="version-tag">v1.1.1</span>
                   </div>
-                  <p class="code-desc">绯洛穗启动3居循环4居轴 
-样本：61绯雪00洛00穗 
-共效：绯雪127洛瑟拉161穗穗270 
+                  <p class="code-desc">绯洛穗启动3居循环4居轴
+样本：61绯雪00洛00穗
+共效：绯雪127洛瑟拉161穗穗270
 位置：一号位穗穗 二号位洛瑟拉 三号位绯雪
-提示：2链以下绯雪是否能有三居合未知，未实测
-绯洛穗 v1.1.0 优化内容
+实机已跑通。v1.1.0 优化：
 1. 绯雪启动轴缩短为 A3→处决(有提示时)/闪避→EE→三居合→重击→R2，开场容错更高
 2. 穗穗启动轴强化E被打断会补按，确认放出才往下走
 3. 穗穗循环轴：回路满了R没亮会继续打到亮；没攒满三格时改普攻；放R前协奏不够先补
 4. 绯雪R2打死怪后先等下一波再切穗穗，不再愣住
 5. 洛瑟拉长按E按录屏校准到完美焦距(0.95s)，对焦期间连点R，回路一满马上开R
-6. 洛瑟拉变奏入场更早按E；变身结束协奏满就切绯雪，不再多A一下</p>
+6. 洛瑟拉变奏入场更早按E；变身结束协奏满就切绯雪，不再多A一下
+v1.1.1 优化：
+1. 洛瑟拉对焦成功后等追光结算完(约0.9s)再开R，不再打断追光少拿协奏，保证绯雪能变奏入场
+2. 洛瑟拉判断R是否放出更严格，被特效挡住画面不会误判成已放出而停按R
+3. 洛瑟拉回场时如果还在变身(追忆)状态，会自动长按攻击把照片打完退出，再正常交棒
+4. 修复R刚好在超时前放出时不打变身段、带着变身状态下场的问题</p>
                   <div class="code-meta">
                     <span class="meta-item"><strong>Author:</strong> 楽山</span>
-                    <span class="meta-item"><strong>Size:</strong> 34.51 KB</span>
-                    <span class="meta-item"><strong>File:</strong> Hiyuki_Lucilla_Suisui_楽山_1.1.0.zip</span>
+                    <span class="meta-item"><strong>Size:</strong> 36.32 KB</span>
+                    <span class="meta-item"><strong>File:</strong> Hiyuki_Lucilla_Suisui_楽山_1.1.1.zip</span>
                   </div>
                 </div>
                 <div class="code-actions">
-                  <a href="https://okwwcharcode.ok-script.com/codes/Hiyuki_Lucilla_Suisui_%E6%A5%BD%E5%B1%B1_1.1.0.zip" download="Hiyuki_Lucilla_Suisui_楽山_1.1.0.zip" class="btn-download" title="Download Zip File">
+                  <a href="https://okwwcharcode.ok-script.com/codes/Hiyuki_Lucilla_Suisui_%E6%A5%BD%E5%B1%B1_1.1.1.zip" download="Hiyuki_Lucilla_Suisui_楽山_1.1.1.zip" class="btn-download" title="Download Zip File">
                     <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
                     </svg>
                     Download ZIP
                   </a>
-                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Hiyuki_Lucilla_Suisui_%E6%A5%BD%E5%B1%B1_1.1.0.zip')" title="Copy direct download URL">
+                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Hiyuki_Lucilla_Suisui_%E6%A5%BD%E5%B1%B1_1.1.1.zip')" title="Copy direct download URL">
                     <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
                     </svg>
@@ -3649,6 +3844,67 @@ fix：修改了在新版本下代码错误的问题</p>
                     Download ZIP
                   </a>
                   <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Qiuyuan_Shorekeeper_Sigrika_%E6%A5%BD%E5%B1%B1_1.1.0.zip')" title="Copy direct download URL">
+                    <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+                    </svg>
+                  </button>
+                </div>
+              </article>
+            
+          </div>
+        </section>
+      
+        <section class="team-group" data-team="qiuyuan, sigrika, verina" data-members="qiuyuan sigrika verina">
+          <div class="team-header">
+            <div class="team-title-wrap">
+              <h2 class="team-title">
+                Qiuyuan, Sigrika, Verina
+              </h2>
+              <div class="member-chips">
+                <span class="chip-member">Qiuyuan</span><span class="chip-member">Sigrika</span><span class="chip-member">Verina</span>
+              </div>
+            </div>
+            <div class="team-header-actions">
+              <a href="https://okwwcharcode.ok-script.com/teams/Qiuyuan_Sigrika_Verina.json" class="btn-team-json" target="_blank" title="Team JSON API">
+                <svg width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
+                Qiuyuan_Sigrika_Verina.json
+              </a>
+            </div>
+          </div>
+
+          <div class="codes-grid">
+            
+              <article class="code-card" data-search="qiuyuan_verina_sigrika qiuyuan, sigrika, verina 尺素 1.全角色0链就可以，维里奈有2链更好，没有2链也是可以循环的
+2.仇远共鸣效率最低125以上，西格莉卡140以上，维里奈至少180以上
+3.角色执行一号位维里奈
+4.需要开启自动切换治疗位
+5.维里奈最好带精1以上奇幻变奏，不然可能轴中存在协奏能量打不满的情况
+6.【低容错队伍】这个队伍能打海墟（下半）和深塔，日常也可以使用，不过没有大招启动打的会慢一点，最适合打矩阵的宝箱怪，被肘多下的话可能会导致循环跟不上，而且西格莉卡的输出性能对空较差，所以矩阵需要人盯着，约等于半自动，理想情况这是打桩五日灵五r轴 qiuyuan_verina_sigrika_尺素_1.0.0.zip qiuyuan sigrika verina">
+                <div class="code-card-main">
+                  <div class="code-title-row">
+                    <h3 class="code-name">Qiuyuan_Verina_Sigrika</h3>
+                    <span class="version-tag">v1.0.0</span>
+                  </div>
+                  <p class="code-desc">1.全角色0链就可以，维里奈有2链更好，没有2链也是可以循环的
+2.仇远共鸣效率最低125以上，西格莉卡140以上，维里奈至少180以上
+3.角色执行一号位维里奈
+4.需要开启自动切换治疗位
+5.维里奈最好带精1以上奇幻变奏，不然可能轴中存在协奏能量打不满的情况
+6.【低容错队伍】这个队伍能打海墟（下半）和深塔，日常也可以使用，不过没有大招启动打的会慢一点，最适合打矩阵的宝箱怪，被肘多下的话可能会导致循环跟不上，而且西格莉卡的输出性能对空较差，所以矩阵需要人盯着，约等于半自动，理想情况这是打桩五日灵五R轴</p>
+                  <div class="code-meta">
+                    <span class="meta-item"><strong>Author:</strong> 尺素</span>
+                    <span class="meta-item"><strong>Size:</strong> 13.23 KB</span>
+                    <span class="meta-item"><strong>File:</strong> Qiuyuan_Verina_Sigrika_尺素_1.0.0.zip</span>
+                  </div>
+                </div>
+                <div class="code-actions">
+                  <a href="https://okwwcharcode.ok-script.com/codes/Qiuyuan_Verina_Sigrika_%E5%B0%BA%E7%B4%A0_1.0.0.zip" download="Qiuyuan_Verina_Sigrika_尺素_1.0.0.zip" class="btn-download" title="Download Zip File">
+                    <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                    </svg>
+                    Download ZIP
+                  </a>
+                  <button type="button" class="btn-copy" onclick="copyLink('https://okwwcharcode.ok-script.com/codes/Qiuyuan_Verina_Sigrika_%E5%B0%BA%E7%B4%A0_1.0.0.zip')" title="Copy direct download URL">
                     <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
                     </svg>
